@@ -100,7 +100,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | 4 | Mọi câu trả lời cho nhóm câu hỏi này đều đã có sẵn trong tài liệu đề (README, SUBMISSION) | Feasibility | 4 | 4 | — Đã kiểm khi đọc đề |
 | 5 | Lớp cho phép thay đổi cách hỗ trợ trên Discord (ghim FAQ, thêm kênh hỏi đáp riêng hoặc công cụ trả lời) | Viability | 3 | 1 | Hỏi lab coach sau lab |
 
-Giả định nhóm kiểm chứng trong buổi này: **#1, #2, #3**. Cả ba đều quan trọng (4–5 điểm) nhưng mới có ít bằng chứng (1–2 điểm). Nếu #2 sai (coach không thấy đây là gánh nặng) thì actor của bài phải đổi sang phía học viên, hoặc chuyển sang candidate dự phòng #4 (đọc đề lab nhiều file). Bộ câu hỏi phỏng vấn: [cp4-interview-guide.md](../assets/cp4-interview-guide.md).
+
 
 ### 3.2. Kiểm chứng
 
