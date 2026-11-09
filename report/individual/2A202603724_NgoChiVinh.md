@@ -180,23 +180,16 @@ Tôi đưa card #1 cho AI đóng vai "PM hoài nghi".
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-Nghe Khoa và Ninh pitch xong tôi mới để ý là vấn đề "lặp lại" không chỉ có ở mấy chuyện bán hàng, tìm việc như tôi nghĩ, mà ngay trong lớp học cũng có — kiểu coach bị hỏi đi hỏi lại cách nộp bài. Vì cả 3 đứa đều từng là người đi hỏi coach nên candidate đó dễ hiểu và dễ kiểm chứng hơn mấy cái tôi đưa ra, nên tôi thấy chọn nó làm candidate chính là hợp lý.
-
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-Có, lúc làm CP2 là rõ nhất. 3 card của tôi đều bị chấm là nghiêng về Rule/Workflow sẵn mà chưa so với việc không dùng AI xem có cần không. Sau đó tôi sửa lại, ghi rõ lý do cho từng mức, và đến CP6 cả nhóm làm lại bằng ma trận độ mơ hồ/độ phức tạp rồi mới chốt là chọn No AI, không vội chọn có AI nữa.
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-Có. Ban đầu tôi thích candidate #2 (tìm việc làm thêm) hơn vì nghĩ nhiều người gặp. Nhưng lúc chấm điểm theo bảng tiêu chí thì candidate #5 của Vĩnh có số liệu cụ thể hơn hẳn (khoảng 3 phút mỗi lần, 30-40 lần), nên tôi đồng ý bỏ ý mình, chọn #5 làm candidate chính của nhóm.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-Bất ngờ nhất là lúc phỏng vấn lab coach ở CP4. Coach xác nhận đúng là bị hỏi nhiều thật, nhưng lại nói thẳng là "không cần thiết" phải có giải pháp gì vì coach coi đó là việc của mình. Tôi cứ nghĩ coach sẽ muốn có công cụ hỗ trợ ngay, hóa ra không phải vậy, nên nhóm phải đánh giá lại là rủi ro Value đang ở mức trung bình-cao, chưa chắc chắn.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
-Khó nhất là phần Success Metric, vì baseline của nhóm chưa đo được số thật, chỉ có Chưa đo – cần xác minh. Tôi không muốn bịa số cho có vẻ chắc, nhưng vẫn phải viết ra target và cách đo để phần đó không bị bỏ trống. Ngoài ra phần Boundary cũng phải sửa lại cho khớp với việc nhóm chọn No AI, vì bản đầu viết như thể sẽ có AI tham gia.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-Nếu làm lại tôi sẽ đếm số tin nhắn thật trên Discord ngay từ CP4, không để tới CP6 mới ghi là "việc cần làm tiếp". Tôi cũng nghĩ nhóm nên phỏng vấn thêm ít nhất 1 học viên ngay trong buổi lab, vì nhóm mới chỉ hỏi được 1 coach, chưa hỏi phía học viên — đây là điểm tôi lẽ ra nên đẩy mạnh hơn lúc đó.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
