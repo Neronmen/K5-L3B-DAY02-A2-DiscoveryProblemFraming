@@ -23,9 +23,9 @@
 | 1 | Phạm Nguyên Khoa | Khi khách hàng nhắn hỏi giá/size/màu/ship, tôi muốn trả lời nhanh mà không gõ lại nhiều lần, để không bỏ lỡ khách | Người bán hàng online nhỏ lẻ | Tra lại thông tin sản phẩm (chưa đo thời gian) | *[điền khi pitch thật]* |
 | 2 | Phạm Nguyên Khoa | Khi tìm việc làm thêm/thực tập, tôi muốn tổng hợp tin tuyển dụng phù hợp tại một nơi, để không mất thời gian tìm trên nhiều nguồn | Sinh viên, người mới đi làm | Chuyển qua lại giữa 4–5 nguồn, lọc lại từ đầu mỗi lần (chưa đo thời gian) | *[điền khi pitch thật]* |
 | 3 | Phạm Nguyên Khoa | Khi ứng tuyển nhiều công ty, tôi muốn đối chiếu CV với JD và biết cần bổ sung gì, để tiết kiệm thời gian chỉnh sửa hồ sơ | Sinh viên mới tốt nghiệp, người đang tìm việc | Đối chiếu từng yêu cầu JD với CV (chưa đo thời gian) | *[điền khi pitch thật]* |
-| 4 | *[TV2]* | | | | |
-| 5 | *[TV2]* | | | | |
-| 6 | *[TV2]* | | | | |
+| 4 | Ngô Chí Vĩnh | Khi bắt đầu một bài lab mới, tôi muốn biết mỗi checkpoint phải làm gì, ghi vào file nào và chấm theo tiêu chí nào, để không phải mở đi mở lại nhiều file đề | Học viên K5 lúc mới nhận đề lab | Ghép thông tin giữa 6–9 file đề (khoảng 8 trong 30 phút đọc đề) | *[điền khi pitch thật]* |
+| 5 | Ngô Chí Vĩnh | Khi sắp tới hạn nộp lab, lab coach muốn học viên tự kiểm tra được tên repo, tên file và cách nộp, để không phải trả lời lặp lại cùng một câu hỏi | Lab coach (người trả lời), học viên sắp nộp (người hỏi) | Coach trả lời lại cùng câu hỏi: khoảng 3 phút/lần × 30–40 lần trên Discord | *[điền khi pitch thật]* |
+| 6 | Ngô Chí Vĩnh | Khi làm bài lab trong buổi học, tôi muốn hoàn thành trong thời gian buổi lab, để không phải làm thêm buổi tối và không trễ deadline | Học viên K5 làm lab có phần code | Tự code tay: khoảng 180 trong 360 phút (lab 6 giờ, buổi học 4 giờ) | *[điền khi pitch thật]* |
 | 7 | *[TV3]* | | | | |
 | 8 | *[TV3]* | | | | |
 | 9 | *[TV3]* | | | | |
