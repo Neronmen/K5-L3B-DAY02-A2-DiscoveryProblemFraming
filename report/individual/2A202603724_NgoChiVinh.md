@@ -171,7 +171,7 @@ Tôi đưa card #1 cho AI đóng vai "PM hoài nghi".
 | CP5 Quy trình | Không dùng AI. Phần này do Khoa viết, tôi góp ý khi nhóm thảo luận | — | — | — |
 | CP5–6 Problem Statement | Không dùng AI. Phần này do Khoa viết, tôi góp ý khi nhóm thảo luận | — | — | — |
 | CP6 Mức can thiệp / quyết định | Không dùng AI. Phần này do Khoa viết, tôi góp ý khi nhóm thảo luận | — | — | — |
-| CP7 Báo cáo cá nhân | Tổng hợp từ lịch sử commit để soạn bảng mục 4, 5, 7 và phần của tôi trong `TEAM.md`; hướng dẫn dùng git (commit, pull, push) | Liệt kê đúng commit làm bằng chứng cho từng phần việc | Có lúc AI tự ghi những điều chỉ tôi biết (lý do, câu hỏi phản biện); tự thêm dòng đồng tác giả Claude vào commit | Tôi trả lời lại phần tham gia thực tế (không pitch thật, góp ý ở CP5–CP6, không dùng AI ở CP5–CP6) để sửa bảng; xoá dòng đồng tác giả khỏi commit. **Mục 6 Reflection tôi tự viết, không dùng AI** |
+| CP7 Báo cáo cá nhân | Tổng hợp từ lịch sử commit để soạn bảng mục 4, 5, 7 và phần của tôi trong `TEAM.md`; hướng dẫn dùng git (commit, pull, push) | Liệt kê đúng commit làm bằng chứng cho từng phần việc | Có lúc AI tự ghi những điều chỉ tôi biết (lý do, câu hỏi phản biện); tự thêm dòng đồng tác giả Claude vào commit | Tôi trả lời lại phần tham gia thực tế (không pitch thật, góp ý ở CP5–CP6, không dùng AI ở CP5–CP6) để sửa bảng; xoá dòng đồng tác giả khỏi commit. Mục 6 Reflection: AI đặt câu hỏi gợi ý dạng lựa chọn (câu 6.7 dạng trắc nghiệm, tôi chọn sai 2 câu rồi tự chọn lại), tôi chọn ý theo trải nghiệm của mình, AI ghép thành câu; tôi đọc lại và giữ những ý đúng với mình |
 
 ---
 
@@ -180,20 +180,27 @@ Tôi đưa card #1 cho AI đóng vai "PM hoài nghi".
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
 Trong các problem của Khoa và Ninh, tôi chú ý nhất đến problem "tổng hợp tin tuyển dụng từ nhiều nguồn" của Khoa. Tôi thấy nó giống problem đọc đề lab của tôi: thông tin cần dùng đều nằm rải rác ở nhiều nơi, phải mở từng nguồn rồi tự ghép lại.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
- Có. Lúc phỏng vấn lab coach ở CP4, nhóm hỏi coach "có cần một công cụ hay giải pháp hỗ trợ không". Đó là hỏi về giải pháp của nhóm, không phải hỏi về chuyện đã xảy ra với coach. Nhóm nhận ra nên ghi lại trong báo cáo rằng câu trả lời "không cần thiết" chỉ là bằng chứng yếu, và dựa vào hành vi thật của coach hơn: coach vẫn tự trả lời tay từng câu và chưa từng thử cách nào để giảm số câu hỏi.
+
+Có. Lúc phỏng vấn lab coach ở CP4, nhóm hỏi coach "có cần một công cụ hay giải pháp hỗ trợ không". Đó là hỏi về giải pháp của nhóm, không phải hỏi về chuyện đã xảy ra với coach. Nhóm nhận ra nên ghi lại trong báo cáo rằng câu trả lời "không cần thiết" chỉ là bằng chứng yếu, và dựa vào hành vi thật của coach hơn: coach vẫn tự trả lời tay từng câu và chưa từng thử cách nào để giảm số câu hỏi.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-  Có. Ở CP2, khi đưa Problem Card "đọc đề lab nhiều file" cho AI đóng vai PM hoài nghi phản biện, tôi bị chỉ ra là CHECKPOINTS.md đã có sẵn bảng tóm tắt "checkpoint nào ghi vào đâu". Tôi mở file ra kiểm tra và thấy đúng là đã có, nên pain "phải đọc nhiều file" nhỏ hơn tôi nghĩ ban đầu. Tôi đổi ý và thu hẹp bottleneck của card lại, chỉ còn bước ghép thông tin giữa các file.
+
+Có. Ở CP2, khi đưa Problem Card "đọc đề lab nhiều file" cho AI đóng vai PM hoài nghi phản biện, tôi bị chỉ ra là CHECKPOINTS.md đã có sẵn bảng tóm tắt "checkpoint nào ghi vào đâu". Tôi mở file ra kiểm tra và thấy đúng là đã có, nên pain "phải đọc nhiều file" nhỏ hơn tôi nghĩ ban đầu. Tôi đổi ý và thu hẹp bottleneck của card lại, chỉ còn bước ghép thông tin giữa các file.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-Tôi khá bất ngờ. Problem #5 là của mình, mình nghĩ coach sẽ thấy phiền vì bị hỏi nhiều, nhưng coach nói đó là việc của coach, không cần. Lúc đầu hơi hụt, sau thì thấy may là đã   hỏi, không thì nhóm đã làm một thứ coach không cần.
+
+Tôi khá bất ngờ. Problem #5 là của tôi, tôi nghĩ coach sẽ thấy phiền vì bị hỏi nhiều, nhưng coach nói đó là việc của coach, không cần. Lúc đầu hơi hụt, sau thì thấy may là đã hỏi, không thì nhóm đã làm một thứ coach không cần.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
 Theo tôi, khó nhất là phần Impact. Problem Statement để actor là lab coach, nhưng khi phỏng vấn, chính coach lại nói việc trả lời lặp lại là "không cần thiết" phải giải quyết. Vì vậy khi đọc và góp ý cho bản Khoa viết, tôi thấy rất khó viết Impact cho thuyết phục: nếu người gặp vấn đề không thấy đau thì "nếu không giải thì sao" gần như không có câu trả lời mạnh.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
 Nếu làm lại, tôi sẽ viết lại Job Story của problem #5, vốn do chính tôi đưa ra. Tôi đã viết "lab coach muốn học viên tự kiểm tra được tên repo, tên file và cách nộp". Cụm "học viên tự kiểm tra được" thật ra đã ngầm chứa một hướng giải, trong khi Job Story chỉ nên nói về pain của coach, ví dụ "không phải trả lời lặp lại cùng một câu hỏi". Nếu viết đúng từ đầu, có lẽ nhóm đã hỏi coach về chuyện đã xảy ra thay vì hỏi về giải pháp.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
