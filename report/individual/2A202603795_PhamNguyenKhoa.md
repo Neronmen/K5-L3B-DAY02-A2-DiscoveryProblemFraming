@@ -36,7 +36,6 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | 4 | Lặp lại | Sinh viên, người đi làm, người tự quản lý tài chính | Ước lượng 20–30 phút/tháng kiểm tra giao dịch từ app ngân hàng, ví điện tử, ghi chú cá nhân |
 | 5 | Pain từ người khác | Nhóm bạn, gia đình 4–8 người | Ước lượng 30–50 tin nhắn và 2–3 ngày để thống nhất kế hoạch 1 chuyến đi. Kiểm chứng qua lịch sử chat nhóm |
 
-> *Lưu ý: các số liệu trên là ước lượng ban đầu, chưa phải kết quả khảo sát thực tế — nếu được hỏi, nói rõ điều đó.*
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
@@ -46,7 +45,6 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
 
-> **Lưu ý:** 3 card dưới đây dựa trên problem 1, 2, 3 ở bảng CP1 (bán hàng online, tìm việc làm thêm, đối chiếu CV–JD). Những chỗ có *[...]* là chỗ bạn điền số liệu/bước thật của chính bạn hoặc người bạn quan sát — mình không bịa bằng chứng.
 
 ### Bảng chọn top 3
 
