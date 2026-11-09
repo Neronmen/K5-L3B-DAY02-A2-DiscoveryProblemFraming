@@ -180,18 +180,25 @@ Tôi đưa card #1 cho AI đóng vai "PM hoài nghi".
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Trong các problem của Khoa và Ninh, tôi chú ý nhất đến problem "tổng hợp tin tuyển dụng từ nhiều nguồn" của Khoa. Tôi thấy nó giống problem đọc đề lab của tôi: thông tin cần dùng đều nằm rải rác ở nhiều nơi, phải mở từng nguồn rồi tự ghép lại.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+ Có. Lúc phỏng vấn lab coach ở CP4, nhóm hỏi coach "có cần một công cụ hay giải pháp hỗ trợ không". Đó là hỏi về giải pháp của nhóm, không phải hỏi về chuyện đã xảy ra với coach. Nhóm nhận ra nên ghi lại trong báo cáo rằng câu trả lời "không cần thiết" chỉ là bằng chứng yếu, và dựa vào hành vi thật của coach hơn: coach vẫn tự trả lời tay từng câu và chưa từng thử cách nào để giảm số câu hỏi.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+  Có. Ở CP2, khi đưa Problem Card "đọc đề lab nhiều file" cho AI đóng vai PM hoài nghi phản biện, tôi bị chỉ ra là CHECKPOINTS.md đã có sẵn bảng tóm tắt "checkpoint nào ghi vào đâu". Tôi mở file ra kiểm tra và thấy đúng là đã có, nên pain "phải đọc nhiều file" nhỏ hơn tôi nghĩ ban đầu. Tôi đổi ý và thu hẹp bottleneck của card lại, chỉ còn bước ghép thông tin giữa các file.
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Tôi khá bất ngờ. Problem #5 là của mình, mình nghĩ coach sẽ thấy phiền vì bị hỏi nhiều, nhưng coach nói đó là việc của coach, không cần. Lúc đầu hơi hụt, sau thì thấy may là đã   hỏi, không thì nhóm đã làm một thứ coach không cần.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Theo tôi, khó nhất là phần Impact. Problem Statement để actor là lab coach, nhưng khi phỏng vấn, chính coach lại nói việc trả lời lặp lại là "không cần thiết" phải giải quyết. Vì vậy khi đọc và góp ý cho bản Khoa viết, tôi thấy rất khó viết Impact cho thuyết phục: nếu người gặp vấn đề không thấy đau thì "nếu không giải thì sao" gần như không có câu trả lời mạnh.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu làm lại, tôi sẽ viết lại Job Story của problem #5, vốn do chính tôi đưa ra. Tôi đã viết "lab coach muốn học viên tự kiểm tra được tên repo, tên file và cách nộp". Cụm "học viên tự kiểm tra được" thật ra đã ngầm chứa một hướng giải, trong khi Job Story chỉ nên nói về pain của coach, ví dụ "không phải trả lời lặp lại cùng một câu hỏi". Nếu viết đúng từ đầu, có lẽ nhóm đã hỏi coach về chuyện đã xảy ra thay vì hỏi về giải pháp.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Problem của nhóm là lab coach phải trả lời lặp lại các câu hỏi về cách đặt tên repo, tên file và cách nộp bài, khoảng 30–40 lần từ đầu khóa. Quy trình hiện tại: học viên không chắc thì hỏi trên Discord, coach dừng việc đang làm để đọc câu hỏi, gõ trả lời tay, rồi học viên mới nộp bài. Bottleneck là bước coach phải gõ lại cùng một câu trả lời cho nhiều người. Metric là số câu hỏi về cách nộp bài trên Discord, mục tiêu giảm ít nhất một nửa sau 2 tuần thử FAQ, nhưng baseline chưa đo được. Boundary là FAQ chỉ lấy nội dung từ README và SUBMISSION đã được coach duyệt, không tự xử lý các ngoại lệ như gia hạn, lỗi kỹ thuật hay khiếu nại điểm. Nhóm chọn mức No AI, vì câu hỏi có đáp án rõ, đã có sẵn trong đề, và coach không muốn có công cụ. Quyết định là Not Yet, vì tín hiệu trái chiều và chưa có số liệu thật; nếu đếm lại dưới 10 lần, hoặc coach không muốn duy trì FAQ, thì chuyển sang No-Go.
 
 ---
 
