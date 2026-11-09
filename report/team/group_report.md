@@ -236,38 +236,30 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô:
+Bài của nhóm nằm ở ô: **Độ mơ hồ thấp × Độ phức tạp thấp**
 
-Vì sao:
+Vì sao: Câu hỏi về tên repo/tên file/cách nộp bài có đáp án đúng/sai rõ ràng, không cần AI suy luận linh hoạt (độ mơ hồ thấp). Chỉ có 1 nguồn dữ liệu cố định (README/SUBMISSION), không có nhiều bước phụ thuộc nhau (độ phức tạp thấp) — theo ma trận gợi ý, ô này "Rule hoặc Workflow đơn giản thường đủ", thậm chí có thể chỉ cần No AI.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | | | | |
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **No AI** (sửa quy trình) | Ghim 1 FAQ/checklist cố định (pinned message hoặc file riêng) do coach soạn từ README/SUBMISSION, cập nhật tay mỗi khi đề đổi | Khi số câu hỏi không quá lớn và học viên chịu đọc trước khi hỏi | Học viên lười đọc, vẫn hỏi thẳng; cần ai đó quảng bá/nhắc có FAQ | **Có — ưu tiên thử trước** |
+| **Rule** | Bot Discord tự trả lời theo từ khóa cố định (vd gõ "nộp bài", "tên repo" → bot trả lời mẫu) | Khi đã thử No AI mà câu hỏi vẫn nhiều vì học viên không chủ động mở FAQ ra đọc | Bot trả lời sai ngữ cảnh nếu từ khóa trùng nhiều tình huống khác nhau; cần coach duy trì danh sách từ khóa | Cân nhắc sau, nếu No AI không đủ |
+| **Workflow** | AI đọc câu hỏi, gợi ý câu trả lời từ FAQ, coach duyệt rồi mới gửi | Khi câu hỏi đa dạng, khó match từ khóa cứng, nhưng vẫn cần người duyệt từng câu | Tốn công tích hợp hơn mức cần thiết — bài toán hiện tại chưa chứng minh được độ phức tạp đủ cao để cần mức này | Không — vượt mức cần thiết hiện tại |
+| **Agent** | AI tự quyết trả lời toàn bộ câu hỏi về nộp bài thay coach | Khi khối lượng câu hỏi rất lớn, đa dạng, cần phản hồi tức thời 24/7 | Cao: coach đã nói rõ "không cần thiết" phải có giải pháp thay thế (CP4) — Agent đi ngược insight thực tế; nếu AI trả lời sai có thể làm học viên nộp sai, trễ deadline | Không |
 
-**Mức chọn:**
+**Mức chọn:** No AI (ưu tiên thử trước) — chỉ cân nhắc lên Rule nếu sau khi thử No AI mà vẫn không đủ.
 
-**Vì sao không chọn mức đơn giản hơn:**
+**Vì sao không chọn mức đơn giản hơn:** Đây đã là mức đơn giản nhất (No AI) nên không có mức nào đơn giản hơn để so sánh. Lý do nhóm **không nhảy thẳng lên Rule/Workflow/Agent**: (1) baseline số liệu thật về tần suất câu hỏi chưa đo được; (2) chính actor chính (lab coach) nói thẳng không thấy cần một giải pháp/công cụ thay thế khi được phỏng vấn ở CP4 — đưa bất kỳ công cụ nào vào lúc này là đi trước bằng chứng.
 
-### 6.3. AI Canvas rút gọn
+### 6.3–6.4. AI Canvas và 2 câu hỏi PAIR — không áp dụng
 
-| Thành phần | Nội dung |
-|---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | |
-| **Judgment** — con người cân nhắc, quyết định gì? | |
-| **Action** — hành động cuối cùng là gì, ai làm? | |
-| **Outcome** — đo kết quả bằng gì? | |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | |
+Vì nhóm chọn mức **No AI**, theo hướng dẫn worksheet không cần điền đầy đủ AI Canvas và 2 câu hỏi PAIR. Lý do bài toán hiện tại không cần AI dự đoán hay tạo nội dung:
 
-### 6.4. Hai câu hỏi của Google PAIR
-
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng:
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
+1. Câu hỏi về cách nộp bài có đáp án đúng/sai rõ ràng (tên repo, tên file, cách nộp) — không cần AI suy luận hay tạo sinh nội dung mới.
+2. Giả định #4 trong Assumption Map (mọi câu trả lời đã có sẵn trong README/SUBMISSION) có mức bằng chứng cao nhất (4/5) trong cả bảng — nghĩa là một checklist/FAQ tĩnh do coach biên soạn đã đủ giải quyết phần lớn trường hợp, không cần AI.
+3. Kiểm chứng CP4 cho thấy actor chính (lab coach) không muốn bị thay thế — đưa AI vào ở giai đoạn này đi ngược với insight thực tế vừa thu thập được.
 
 ---
 
@@ -275,29 +267,30 @@ Vì sao:
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** | |
-| **AI intervention point** | |
-| **Mức chọn** | No AI / Rule / Workflow / Agent |
-| **Rủi ro & người kiểm tra** | |
+| **Actor** | Lab coach (người trả lời) và học viên K5 sắp tới hạn nộp bài (người hỏi) |
+| **Quy trình** | Học viên vướng mắc về cách đặt tên repo/file/cách nộp bài → hỏi trực tiếp trên kênh Discord chung → lab coach dừng việc đang làm để đọc và trả lời tay từng người |
+| **Bottleneck** | Lab coach phải trả lời lặp lại cùng loại câu hỏi nhiều lần (~30–40 lần từ đầu khóa theo quan sát ban đầu), mỗi lần làm gián đoạn thời gian hỗ trợ nội dung bài |
+| **Impact** | Lab coach mất thời gian cho việc lặp lại thay vì hỗ trợ chuyên môn; học viên phải chờ phản hồi mới chắc chắn nộp đúng, có nguy cơ trễ nếu coach đang bận |
+| **Success Metric** (baseline → target, cách đo) | Metric: số lần học viên phải hỏi trực tiếp coach về cách nộp bài trên Discord. Baseline: `Chưa đo – cần xác minh`. Target (đề xuất): giảm xuống dưới một nửa trong 2 tuần thử nghiệm có FAQ. Cách đo: đếm tin nhắn hỏi "cách nộp bài" trên Discord trước/sau khi có FAQ |
+| **Boundary** | FAQ/checklist không tự thêm nội dung ngoài README/SUBMISSION đã được coach duyệt; không tự xử lý trường hợp ngoại lệ (gia hạn, lỗi kỹ thuật, khiếu nại điểm) — luôn cần coach quyết định trực tiếp |
+| **AI intervention point** | Không có — giải pháp là FAQ/checklist tĩnh do coach biên soạn và duyệt nội dung, không có AI dự đoán hay tạo nội dung ở bước nào |
+| **Mức chọn** | No AI (ưu tiên thử trước); cân nhắc lên Rule nếu sau thử nghiệm vẫn không đủ |
+| **Rủi ro & người kiểm tra** | Rủi ro chính: FAQ lỗi thời nếu đề bài đổi mà không cập nhật, hoặc học viên không biết có FAQ nên vẫn hỏi thẳng. Người kiểm tra: lab coach là người duy nhất duyệt nội dung FAQ trước khi đăng và cập nhật khi đề bài thay đổi |
 
 **Thay đổi so với v0 và lý do:**
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| | | | |
+| AI intervention point, Mức chọn, Rủi ro & người kiểm tra | Chưa có (v0 chỉ có 6 trường gốc) | Thêm 3 trường mới, chốt **No AI** | CP6 yêu cầu xác định rõ mức can thiệp sau khi đã so sánh 4 mức ở mục 6.2 |
+| Boundary | Mô tả chung "FAQ không tự thêm nội dung ngoài tài liệu" | Giữ nguyên nội dung, nhưng giờ gắn rõ với mức **No AI** đã chọn (trước đó boundary được viết như thể sẽ có AI ở đâu đó) | Làm rõ: không phải "AI không được làm X", mà là "không dùng AI ở bước nào cả" — nhất quán với quyết định No AI |
 
-**Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
+**Tiêu chí đánh giá cho giải pháp No AI (FAQ/checklist tĩnh) — 3–5 tiêu chí:**
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Đúng nội dung | Mọi mục trong FAQ trích đúng, khớp với README/SUBMISSION hiện hành | Có nội dung tự suy diễn, không có trong tài liệu gốc, hoặc đã lỗi thời so với đề mới |
+| 2 | Giảm số câu hỏi lặp | Số câu hỏi về cách nộp bài trên Discord giảm ít nhất 50% so với baseline trong 2 tuần pilot | Không giảm hoặc giảm không đáng kể so với trước khi có FAQ |
+| 3 | Không bỏ sót trường hợp đặc biệt | Mọi câu hỏi ngoài phạm vi FAQ (gia hạn, lỗi kỹ thuật, khiếu nại) vẫn được chuyển tới và xử lý trực tiếp bởi coach | Có học viên chỉ nhận được câu trả lời từ FAQ cho một tình huống đặc biệt mà lẽ ra cần coach xử lý |
 
 ---
 
@@ -307,30 +300,35 @@ Vì sao:
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | | |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | | |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | | |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | | |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | **Trung bình – Cao** | Tín hiệu trái chiều: coach xác nhận *có bị hỏi nhiều* (ủng hộ), nhưng nói thẳng "không cần thiết" có giải pháp (phản bác). Actor còn lại (học viên) chưa được phỏng vấn — chưa biết họ có thấy mất thời gian thật không |
+| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra không? | **Thấp** | FAQ/checklist tĩnh, không có AI, không có gì phức tạp để học viên hoặc coach phải hiểu thêm |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | **Thấp** | Giả định #4 đã có bằng chứng cao (4/5): mọi câu trả lời đã có sẵn trong README/SUBMISSION — chỉ cần coach tổng hợp lại, không cần công cụ mới |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | **Trung bình** | Cần ai đó (coach) duy trì cập nhật FAQ mỗi khi đề đổi; chưa xác nhận coach có sẵn lòng duy trì lâu dài hay chỉ chấp nhận trả lời tay như hiện tại (giả định #5 mới có bằng chứng 1/5) |
 
 ### 8.2. Kết luận
 
-**Quyết định:** Go / Not Yet / No-Go
+**Quyết định:** Not Yet
 
-**Lý do:**
+**Lý do:** Rủi ro Value ở mức Trung bình–Cao vì tín hiệu trái chiều từ chính actor chính (lab coach): có xác nhận tần suất câu hỏi cao, nhưng đồng thời phủ nhận nhu cầu cần một giải pháp. Nhóm chưa có dữ liệu định lượng (baseline số câu hỏi thật) và chưa phỏng vấn actor còn lại (học viên) để biết liệu FAQ có thật sự giải quyết đúng vấn đề của họ không. Giải pháp No AI có rủi ro Usability/Feasibility thấp (dễ làm, dễ dùng) nên chi phí thử nghiệm không lớn, nhưng vẫn cần kiểm chứng thêm trước khi đầu tư công sức soạn FAQ chính thức.
 
-**Nếu Go — pilot nhỏ nhất:**
+**Nếu Go — pilot nhỏ nhất:** *(chưa áp dụng — xem mục Not Yet bên dưới)*
 
 **Nếu Not Yet — cần kiểm chứng gì trước:**
+1. Đếm lại số câu hỏi thật về "cách nộp bài" trong lịch sử Discord từ đầu khóa (kiểm chứng giả định #1, hiện mới có ước lượng ~30–40 lần từ 1 nguồn).
+2. Phỏng vấn thêm 1–2 học viên: có đọc README/SUBMISSION trước khi hỏi không, vì sao vẫn phải hỏi (kiểm chứng giả định #3).
+3. Hỏi lại coach cụ thể hơn: nếu nhóm soạn sẵn 1 bản FAQ, coach có sẵn lòng duyệt và duy trì không, hay vẫn muốn giữ nguyên cách trả lời tay (kiểm chứng giả định #5).
 
-**Nếu No-Go — nên làm gì thay AI:**
+**Nếu No-Go — nên làm gì thay AI:** Giữ nguyên quy trình hiện tại (coach trả lời tay từng câu hỏi) — không cần thay đổi gì, vì đây vốn đã là lựa chọn No AI đơn giản nhất.
 
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
+**Ngưỡng dừng:** Nếu sau khi đếm lại lịch sử Discord mà số câu hỏi lặp lại về cách nộp bài **dưới 10 lần trong cả khóa** (không đáng kể so với quy mô lớp), hoặc coach xác nhận **không sẵn lòng duy trì FAQ**, thì quay về **No-Go** — giữ nguyên quy trình hiện tại, chỉ nhắc học viên đọc kỹ đề trước khi hỏi, không cần soạn FAQ riêng.
 
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
 
--
+- Mới phỏng vấn được 1 nguồn (1 lab coach); chưa có dữ liệu trực tiếp từ actor "học viên" (phía đặt câu hỏi) — cần bổ sung trước khi kết luận chắc chắn hơn.
+- Baseline định lượng (số câu hỏi thật, thời gian coach mất mỗi lần) chưa đo được trong buổi lab, mới dừng ở quan sát định tính.
+- Hướng tiếp theo: thực hiện 3 việc kiểm chứng đã nêu ở mục 8.2 (đếm Discord, phỏng vấn học viên, hỏi lại coach về khả năng duy trì), rồi mới quyết định có triển khai FAQ chính thức hay không.
 
 ## 10. Tài liệu tham khảo
 
