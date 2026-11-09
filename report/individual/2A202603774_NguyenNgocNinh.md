@@ -160,19 +160,32 @@ Quy trình nháp hiện tại:
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
 Sau khi nghe Vĩnh và Khoa trình bày, tôi nhận ra được các vấn đề "lặp lại" xuất hiện rất nhiều không chỉ trong công việc mà nó còn ở trong các hoạt động hằng ngày như học tập. Xác định được rõ các thành phần bị ảnh hưởng và thành phần bị ảnh hưởng chính trong vấn đề.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
 Có, lúc thảo luận và trước hỏi ý kiến lab coach thì nhóm bịn "solution-first". Sau khi nhận ra, cả nhóm đã thảo luận lại, tìm rõ thành phần bị ảnh hưởng chính và từ đó đưa ra solution phù hợp.
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
 Lúc đầu tôi rất thích và muốn chọn candidate #9, vì vấn đề xảy ra không chỉ trong công việc và cuộc sống hằng ngày. Nhưng sau khi được nghe phản biện, tôi cảm thấy candidate #5 của Vĩnh có khả năng triển khai tốt hơn, quy trình thu thập dữ liệu cũng không quá khó. Đặc biệt candidate #5 đi vào giải quyết 1 vấn đề cụ thể chứ không phải tổng quát như cadidate #9.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
 Kết quả kiểm chứng làm tôi rất bất ngờ. Tại vì nhóm đã xác định không đúng đối tượng ảnh hưởng dẫn đến việc đưa ra solution không hợp lý.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
 Khó nhất là phần Success Metric, vì baseline của nhóm chưa đo được số thật. Nhóm không muốn "bịa" mà muốn có số liệu cụ thể cũng như lắng nghe ý kiến của thành phần bị ảnh hưởng trong vấn để để có giải pháp tối ưu nhất. Phần Boundary cũng phải sửa lại cho khớp với việc nhóm chọn No AI, vì bản đầu viết như thể sẽ có AI tham gia.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
 Nếu làm lại, tôi sẽ khảo sát lại từ đầu, xem mình có số liệu nào cụ thể và chính xác trước khi chọn vấn đề. Đặt lại câu hỏi cho lab coach trước khi phỏng vấn để nhận được câu trả lời chính xác, đúng trọng tâm. Có thể phỏng vấn nhiều Lab coach, học viên để có nhiều góc nhìn hơn.
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+**6.7. Hiểu bài:** 
+
+giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
 ---
 
