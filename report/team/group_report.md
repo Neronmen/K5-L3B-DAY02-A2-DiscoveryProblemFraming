@@ -134,44 +134,64 @@ Tổng hợp:
 | | | | | | |
 
 ---
+--
 
 ## 4. Quy trình trước/sau (CP5)
 
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
+Sơ đồ:
 
 ```text
+HIỆN TẠI — tổng thời gian: Chưa đo
 
+[1. Học viên vướng mắc về nộp bài] → [2. Hỏi trên kênh Discord]
+   → [3. Coach dừng việc đang làm, đọc câu hỏi] → [4. Coach gõ trả lời tay]
+   ← BOTTLENECK (lặp lại ~30–40 lần từ đầu khóa, mỗi lần làm gián đoạn việc khác)
+   → [5. Học viên đọc, áp dụng, nộp bài]
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Học viên | Đề bài (README/SUBMISSION) | Câu hỏi về tên repo/file/cách nộp | Trước mỗi hạn nộp | Xảy ra dù học viên đã đọc đề (giả định #3, chưa kiểm chứng trực tiếp với học viên) |
+| 2 | Học viên | Câu hỏi | Tin nhắn trên Discord | ~30–40 lần từ đầu khóa (quan sát ban đầu) | Kênh hỏi đáp chung của lớp |
+| 3 | Lab coach | Tin nhắn hỏi | Thời gian đọc + xử lý | `Chưa đo – cần xác minh` mỗi lần | Phải dừng việc hỗ trợ nội dung đang làm |
+| 4 | Lab coach | Câu hỏi đã đọc | Câu trả lời bằng tay | `Chưa đo – cần xác minh` mỗi lần | Nội dung thường lặp lại câu đã trả lời trước đó cho người khác |
+| 5 | Học viên | Câu trả lời của coach | Bài nộp đúng quy cách | Ngay sau khi coach trả lời | Có độ trễ nếu coach đang bận |
 
-**Bottleneck chính:**
+**Bottleneck chính:** Bước 3–4 — lab coach phải tự tay trả lời lặp lại cùng loại câu hỏi, không có nơi tổng hợp sẵn để học viên tự tra trước khi hỏi.
 
 ### 4.2. Quy trình tương lai
 
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
-
 ```text
+TƯƠNG LAI — kỳ vọng giảm số lần cần hỏi trực tiếp coach
 
+[1. Học viên vướng mắc] → [2. Tự tra FAQ/checklist cố định]  ← Rule (nội dung tĩnh,
+                                                                  lấy từ README/SUBMISSION,
+                                                                  coach duyệt trước khi đăng)
+   → [3a. Đủ thông tin] → [Nộp bài]
+   → [3b. Vẫn chưa rõ] → [4. Hỏi coach trên kênh Discord]  ← CON NGƯỜI (giữ nguyên,
+                                                                 không giao cho AI quyết)
+   → [5. Coach trả lời — chỉ còn câu hỏi thật sự mới/đặc biệt]
+
+Boundary: FAQ/checklist KHÔNG tự thêm nội dung ngoài README/SUBMISSION đã được coach duyệt;
+          KHÔNG tự xử lý trường hợp ngoại lệ (xin gia hạn, lỗi kỹ thuật, khiếu nại điểm)
+          — những việc này luôn do coach quyết định trực tiếp.
+Phương án quay về: nếu FAQ gây hiểu lầm hoặc học viên vẫn không tìm thấy câu trả lời,
+                   quay lại hỏi trực tiếp coach như quy trình hiện tại — không có bước nào bị khoá cứng.
 ```
+
+
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | | | |
-| Tổng thời gian | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Rủi ro mới phát sinh | | | |
+| Số bước | 5 | 5 (có nhánh rẽ) | Thêm bước tự tra FAQ, không bỏ bước nào của coach |
+| Tổng thời gian | Chưa đo | Kỳ vọng giảm số lần cần đến bước 4–5 (coach trả lời) | Cần đo baseline thật trước khi cam kết con số |
+| Số bước thủ công | 2 (bước 3, 4 — coach làm tay hoàn toàn) | 1 (chỉ còn bước 5, cho câu hỏi thật sự mới) | Bước 2 (tự tra FAQ) không cần coach can thiệp |
+| Bottleneck chính | Coach trả lời lặp lại mọi câu hỏi | Coach chỉ xử lý câu hỏi đặc biệt — bottleneck còn lại là cập nhật FAQ kịp thời | Bottleneck chuyển từ "trả lời" sang "duy trì nội dung" |
+| Rủi ro mới phát sinh | — | FAQ lỗi thời nếu đề bài đổi mà không cập nhật; học viên không biết có FAQ nên vẫn hỏi thẳng | Cần quy định ai cập nhật FAQ và khi nào |
 
 ---
 
@@ -179,16 +199,17 @@ Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người*
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | |
-| **Quy trình** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** (baseline → target, cách đo) | |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | |
+| **Actor** | Lab coach (người trả lời) và học viên K5 sắp tới hạn nộp bài (người hỏi) |
+| **Quy trình** | Học viên vướng mắc về cách đặt tên repo/file/cách nộp bài → hỏi trực tiếp trên kênh Discord chung → lab coach dừng việc đang làm (hỗ trợ nội dung) để đọc và trả lời tay từng người |
+| **Bottleneck** | Lab coach phải trả lời lặp lại cùng loại câu hỏi nhiều lần (~30–40 lần từ đầu khóa theo quan sát ban đầu), mỗi lần làm gián đoạn thời gian lẽ ra dành cho hỗ trợ nội dung bài |
+| **Impact** | Lab coach mất thời gian cho việc lặp lại thay vì hỗ trợ chuyên môn; học viên phải chờ phản hồi mới chắc chắn nộp đúng, có nguy cơ trễ nếu coach đang bận |
+| **Success Metric** (baseline → target, cách đo) | Metric: số lần học viên phải hỏi trực tiếp coach về cách nộp bài trên Discord. Baseline: `Chưa đo – cần xác minh` (hiện có quan sát định tính "có hỏi nhiều" từ phỏng vấn coach, chưa đếm chính xác). Target (đề xuất): giảm số câu hỏi loại này xuống còn dưới một nửa trong 2 tuần thử nghiệm có FAQ. Cách đo: đếm số tin nhắn hỏi về "cách nộp bài" trên kênh Discord trước và sau khi có FAQ |
+| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | FAQ/checklist không tự thêm nội dung ngoài README/SUBMISSION đã được coach duyệt; không tự xử lý trường hợp ngoại lệ (xin gia hạn, lỗi kỹ thuật, khiếu nại điểm) — những việc này luôn cần coach (con người) quyết định trực tiếp |
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
--
+- *(đóng vai PM hoài nghi)* Success Metric đang có baseline là `Chưa đo` — nếu nộp ở dạng này, chưa chứng minh được bottleneck thật sự lớn tới đâu. **Đồng ý một phần**: nhóm cần tranh thủ đếm lại lịch sử tin nhắn Discord thật (giả định #1 trong Assumption Map) trước khi chốt số liệu, nhưng do giới hạn thời gian buổi lab, tạm giữ nguyên baseline "Chưa đo – cần xác minh" và ghi rõ đây là việc cần làm tiếp.
+- *(đóng vai PM hoài nghi)* Quy trình hiện tại mới chỉ có 1 nguồn phỏng vấn (1 lab coach) — Actor "học viên" (phía hỏi) chưa có dữ liệu xác nhận trực tiếp (giả định #3 chưa kiểm chứng). **Đồng ý**: đây là giới hạn đã ghi ở mục 9 (Hạn chế và hướng tiếp theo), nhóm nên phỏng vấn thêm 1–2 học viên nếu còn thời gian.
 
 ---
 
