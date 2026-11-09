@@ -149,16 +149,16 @@ HIỆN TẠI — tổng thời gian: Chưa đo
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 Problem Card của mình (#1 trả lời khách hỏi giá/ship, #2 tìm việc làm thêm, #3 đối chiếu CV–JD) cho nhóm ở CP2–CP3 | Cả 3 card được đưa vào bảng pitch chung (mục 2.1 group_report.md) để nhóm cùng cluster |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: góp ý về cách gom cluster và chấm điểm shortlist cho các candidate của Vĩnh và Ninh | Giúp nhóm thống nhất 3 cluster A/B/C và chọn candidate #5 đại diện tốt nhất |
+| Nhận phản biện | Câu hỏi tôi nhận được: các con số ước lượng (60–70% câu hỏi tương tự, 30–45 phút/ngày...) trong card của tôi có phải bằng chứng thật không | Tôi đã sửa gì: đổi các ô baseline/bottleneck sang `Chưa đo – cần xác minh`, chỉ giữ ước lượng làm ngữ cảnh (đã ghi rõ trong mục 3 phần "AI đã phản biện card thế nào") |
+| Gom cluster / cây OST | Với vai trò điều phối, tổng hợp 9 candidate của cả 3 thành viên thành 3 cluster (A: thông tin rải rác, B: trả lời lặp lại, C: đối chiếu/chọn lọc nội dung) và vẽ Opportunity Solution Tree rút gọn | Nhóm có cây OST 1 outcome – 3 opportunity làm cơ sở chấm điểm shortlist |
+| Chọn candidate problem | Lập bảng chấm điểm 1–5 cho 3 candidate đại diện (#5, #8, #9), tổng hợp lý do chọn #5 và lý do loại các candidate còn lại (bao gồm cả 3 candidate của chính tôi) | Nhóm chốt candidate #5 (coach trả lời lặp lại câu hỏi nộp bài) làm problem chính |
+| Kiểm chứng / research | Hỗ trợ tổng hợp Assumption Map và kết quả phỏng vấn lab coach (Snapshot #1) vào group_report.md | Xác định rủi ro Value quan trọng nhất: coach xác nhận bị hỏi nhiều nhưng nói "không cần thiết" có giải pháp |
+| Quy trình nhóm | Hỗ trợ Vĩnh/Ninh hoàn thiện sơ đồ quy trình trước/sau và bảng before/after | Quy trình tương lai rõ boundary: FAQ tĩnh, không giao coach quyết định ngoại lệ cho AI |
+| Problem Statement | Trực tiếp viết Problem Statement v0 (CP5) và cập nhật thành v1 (CP6), tự đóng vai PM hoài nghi để phản biện baseline của chính mình | Problem Statement v1 có đủ Actor, Bottleneck, Impact, Success Metric, Boundary, AI intervention point |
+| Mức can thiệp AI | Lập ma trận độ mơ hồ × độ phức tạp, so sánh 4 mức No AI/Rule/Workflow/Agent và giải thích vì sao chọn No AI | Nhóm thống nhất chọn No AI (ưu tiên thử trước), không nhảy thẳng lên Rule/Workflow/Agent |
+| Quyết định | Cùng nhóm lập bảng 4 rủi ro (Value/Usability/Feasibility/Viability) và viết kết luận Not Yet | Nhóm chốt quyết định Not Yet, liệt kê rõ 3 việc cần kiểm chứng trước khi quyết lại |
 
 ---
 
@@ -166,34 +166,44 @@ HIỆN TẠI — tổng thời gian: Chưa đo
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Hỏi AI gợi ý thêm vài vấn đề hằng ngày ngoài 5 ý tôi đã nghĩ sẵn | Gợi ý thêm hướng tự động hóa công việc, quản lý cá nhân | Nhiều gợi ý quá rộng, không có actor cụ thể | Giữ lại 5 vấn đề có actor rõ và kiểm chứng được, bỏ các ý chung chung |
+| CP2 Problem Card | Nhờ AI đóng vai phản biện cho 3 Problem Card của tôi | Chỉ ra baseline/bottleneck của tôi toàn là ước lượng, không phải bằng chứng thật (The Mom Test) | AI mặc định nghiêng về giải pháp AI (Rule/Workflow) ngay từ đầu mà chưa so sánh với No AI | Đổi các ô số liệu sang `Chưa đo – cần xác minh`, thêm lý do cụ thể vì sao từng card chọn mức can thiệp đó thay vì mặc định dùng AI |
+| CP4 Research | Dùng AI hỗ trợ soạn câu hỏi phỏng vấn lab coach và tổng hợp Assumption Map | Giúp liệt kê đủ 4 loại giả định (Value/Usability/Feasibility/Viability) không bị thiếu | AI không tự biết coach sẽ nói "không cần thiết" — đây là tín hiệu thật từ phỏng vấn, không phải AI đoán | Tự đánh giá lại mức rủi ro Value sau khi có câu trả lời thật của coach, không theo giả định ban đầu của AI |
+| CP5 Quy trình | Dùng AI hỗ trợ vẽ nhanh sơ đồ quy trình trước/sau dạng text | Giúp trình bày sơ đồ gọn, đủ bước | Bản đầu AI vẽ quy trình tương lai có vẻ giao quá nhiều quyền quyết định ngoại lệ cho FAQ | Thêm rõ boundary: FAQ không tự xử lý gia hạn/lỗi kỹ thuật/khiếu nại, các việc này luôn do coach quyết |
+| CP5–6 Problem Statement | Nhờ AI đóng vai PM hoài nghi để phản biện Problem Statement v0 | Chỉ ra baseline vẫn ghi `Chưa đo` và thiếu dữ liệu từ actor học viên | Phản biện chỉ dừng ở mức chỉ ra thiếu sót, không tự có số liệu thay nhóm | Giữ nguyên baseline `Chưa đo – cần xác minh` và ghi rõ đây là việc cần làm tiếp, không để AI tự bịa số |
+| CP6 Mức can thiệp / quyết định | Dùng AI để so sánh nhanh ưu/nhược của 4 mức No AI/Rule/Workflow/Agent theo tình huống của nhóm | Giúp liệt kê rủi ro rõ ràng cho từng mức, đặc biệt mức Agent | AI ban đầu có xu hướng đánh giá Rule/Workflow "tiện lợi hơn" mà chưa cân nhắc insight thật từ coach | Chốt chọn No AI và quyết định Not Yet dựa trên bằng chứng phỏng vấn thật (coach nói không cần thiết), không theo thiên hướng của AI |
 
 ---
-
 ## 6. Reflection (CP7)
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
+
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
+Nghe Vĩnh và Ninh pitch xong tôi mới để ý là vấn đề "lặp lại" không chỉ có ở mấy chuyện bán hàng, tìm việc như tôi nghĩ, mà ngay trong lớp học cũng có — kiểu coach bị hỏi đi hỏi lại cách nộp bài. Vì cả 3 đứa đều từng là người đi hỏi coach nên candidate đó dễ hiểu và dễ kiểm chứng hơn mấy cái tôi đưa ra, nên tôi thấy chọn nó làm candidate chính là hợp lý.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
+Có, lúc làm CP2 là rõ nhất. 3 card của tôi đều bị chấm là nghiêng về Rule/Workflow sẵn mà chưa so với việc không dùng AI xem có cần không. Sau đó tôi sửa lại, ghi rõ lý do cho từng mức, và đến CP6 cả nhóm làm lại bằng ma trận độ mơ hồ/độ phức tạp rồi mới chốt là chọn No AI, không vội chọn có AI nữa.
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Có. Ban đầu tôi thích candidate #2 (tìm việc làm thêm) hơn vì nghĩ nhiều người gặp. Nhưng lúc chấm điểm theo bảng tiêu chí thì candidate #5 của Vĩnh có số liệu cụ thể hơn hẳn (khoảng 3 phút mỗi lần, 30-40 lần), nên tôi đồng ý bỏ ý mình, chọn #5 làm candidate chính của nhóm.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
+Bất ngờ nhất là lúc phỏng vấn lab coach ở CP4. Coach xác nhận đúng là bị hỏi nhiều thật, nhưng lại nói thẳng là "không cần thiết" phải có giải pháp gì vì coach coi đó là việc của mình. Tôi cứ nghĩ coach sẽ muốn có công cụ hỗ trợ ngay, hóa ra không phải vậy, nên nhóm phải đánh giá lại là rủi ro Value đang ở mức trung bình-cao, chưa chắc chắn.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
+Khó nhất là phần Success Metric, vì baseline của nhóm chưa đo được số thật, chỉ có `Chưa đo – cần xác minh`. Tôi không muốn bịa số cho có vẻ chắc, nhưng vẫn phải viết ra target và cách đo để phần đó không bị bỏ trống. Ngoài ra phần Boundary cũng phải sửa lại cho khớp với việc nhóm chọn No AI, vì bản đầu viết như thể sẽ có AI tham gia.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Nếu làm lại tôi sẽ đếm số tin nhắn thật trên Discord ngay từ CP4, không để tới CP6 mới ghi là "việc cần làm tiếp". Tôi cũng nghĩ nhóm nên phỏng vấn thêm ít nhất 1 học viên ngay trong buổi lab, vì nhóm mới chỉ hỏi được 1 coach, chưa hỏi phía học viên — đây là điểm tôi lẽ ra nên đẩy mạnh hơn lúc đó.
 
----
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
 ## 7. Tài liệu tham khảo
 
