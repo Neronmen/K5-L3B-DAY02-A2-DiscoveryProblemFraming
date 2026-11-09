@@ -10,7 +10,7 @@
 - MSSV: 2A202603774
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: A2
-- Link repo nhóm:
+- Link repo nhóm: https://github.com/Neronmen/K5-L3B-DAY02-A2-DiscoveryProblemFraming
 
 ---
 
