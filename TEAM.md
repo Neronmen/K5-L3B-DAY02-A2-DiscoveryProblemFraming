@@ -14,7 +14,7 @@
 |---:|---|---|---|---|
 | 1 | Phạm Nguyên Khoa | 2A202603795 | Điều phối, viết Problem Statement | Neronmen |
 | 2 | Nguyễn Ngọc Ninh | 2A202603774 | Kiểm chứng (phỏng vấn), hỗ trợ Problem Statement v0 | *[Ninh tự điền]* |
-| 3 | Ngô Chí Vĩnh | 2A202603724 | Research, vẽ quy trình trước/sau | *[Vĩnh tự điền]* |
+| 3 | Ngô Chí Vĩnh | 2A202603724 | Research giải pháp đã có, Assumption Map, bộ câu hỏi phỏng vấn | NgChiVinh |
 
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.

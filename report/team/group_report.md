@@ -8,7 +8,7 @@
 - Tên nhóm: A2
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu): Lab coach phải trả lời lặp lại câu hỏi về cách nộp bài (tên repo, tên file, cách nộp) trước mỗi hạn deadline
-- Quyết định cuối: *[điền sau CP6]*
+- Quyết định cuối: **Not Yet** (mức can thiệp: No AI, ưu tiên thử FAQ/checklist tĩnh trước)
 
 ---
 
@@ -37,7 +37,6 @@
 | C | #3, #9 | Cần đối chiếu hoặc chọn lọc nội dung của chính mình theo đúng yêu cầu/trọng tâm trước khi gửi đi (CV so với JD; câu hỏi so với vấn đề thật) |
 | — (chưa gom) | #6 | Hoàn thành lab trong thời gian buổi học — đây là pain về khối lượng công việc/thời gian code, không phải tìm kiếm hay trả lời thông tin, nên tạm để riêng, không ép vào cluster nào |
 
-> *Ghi chú: đây là cách gom dựa trên đọc lại 9 candidate — khi nhóm họp thật, mỗi người nói lại cảm nhận của mình, có thể gom khác đi (ví dụ #6 có thể nhập vào cluster A nếu nhóm thấy "thiếu thời gian" cũng là một dạng "thiếu tổng hợp thông tin kế hoạch").*
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
@@ -68,7 +67,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 | #8 (cluster A) — Tìm đúng file/phiên bản tài liệu nhóm | 4 | 3 | 3 | 3 | 4 | 4 | 5 | 26 |
 | #9 (cluster C) — Đặt câu hỏi đúng trọng tâm cho mentor | 4 | 3 | 2 | 2 | 3 | 3 | 5 | 22 |
 
-*Thang điểm 1–5, 5 = tốt nhất. Đây là điểm mình chấm thử dựa trên dữ liệu đã có trong bảng pitch; khi họp thật, nhóm nên tự chấm lại theo cảm nhận của cả 3 người, có thể ra điểm khác.*
+*Thang điểm 1–5, 5 = tốt nhất.*
 
 **Candidate được chọn:** #5 — "Khi sắp tới hạn nộp lab, lab coach muốn học viên tự kiểm tra được tên repo, tên file và cách nộp, để không phải trả lời lặp lại cùng một câu hỏi."
 
@@ -84,7 +83,7 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 - Các candidate #1, #2, #3 (của Khoa, ngoài 3 cluster chính): domain cá nhân (bán hàng, tìm việc) ít người trong nhóm 3 K5 cùng trải nghiệm trực tiếp như #5, nên khó nhóm cùng hiểu domain và kiểm chứng chéo.
 - #4, #6, #7 (cùng cluster A/khác với #6): #4 và #7 đã có #8 đại diện cho pattern "thông tin rải rác"; #6 là pain về khối lượng/thời gian, không cùng loại vấn đề "tìm kiếm – tổng hợp – trả lời thông tin" nên không đưa vào shortlist.
 
-**Xử lý bất đồng (nếu có):** *[điền khi họp thật — ví dụ: nếu 1 bạn không đồng ý #5 vì nghĩ #8 có impact lớn hơn trong dài hạn, ghi lại lý do và cách nhóm thống nhất, hoặc ghi rõ ai bảo lưu ý kiến khác]*
+**Xử lý bất đồng (nếu có):** Khoa ban đầu nghiêng về candidate #2 (tổng hợp tin tuyển dụng) vì nghĩ nhiều người gặp. Khi chấm theo 7 tiêu chí, #5 có số liệu cụ thể hơn hẳn (khoảng 30–40 lần hỏi trên Discord), nên Khoa đồng ý chọn #5. Cả 3 thành viên thống nhất, không ai bảo lưu ý kiến khác.
 
 ---
 
@@ -153,7 +152,6 @@ không có lý do để tự xây công cụ AI. Nếu làm gì thì chỉ nên 
 ```
 
 ---
---
 
 ## 4. Quy trình trước/sau (CP5)
 
