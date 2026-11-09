@@ -94,11 +94,11 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | Câu hỏi về cách đặt tên repo, tên file và cách nộp bài xuất hiện lặp lại nhiều lần trên Discord (khoảng 30–40 lần từ buổi lab đầu) | Value | 5 | 2 | ✅ Đếm tin nhắn trên Discord |
-| 2 | Lab coach thấy việc trả lời lặp lại những câu này là gánh nặng, lấy mất thời gian hỗ trợ phần nội dung bài | Value | 5 | 1 | ✅ Phỏng vấn lab coach |
-| 3 | Học viên đã tìm trong README hoặc SUBMISSION trước khi hỏi nhưng vẫn không chắc (vấn đề là khó tìm, khó hiểu, không phải không đọc) | Value / Usability | 4 | 2 | ✅ Phỏng vấn học viên nhóm khác |
+| 1 | Câu hỏi về cách đặt tên repo, tên file và cách nộp bài xuất hiện lặp lại nhiều lần trên Discord (khoảng 30–40 lần từ buổi lab đầu) | Value | 5 | 2 |  Đếm tin nhắn trên Discord |
+| 2 | Lab coach thấy việc trả lời lặp lại những câu này là gánh nặng, lấy mất thời gian hỗ trợ phần nội dung bài | Value | 5 | 1 |  Phỏng vấn lab coach |
+| 3 | Học viên đã tìm trong README hoặc SUBMISSION trước khi hỏi nhưng vẫn không chắc (vấn đề là khó tìm, khó hiểu, không phải không đọc) | Value / Usability | 4 | 2 |  Phỏng vấn học viên nhóm khác |
 | 4 | Mọi câu trả lời cho nhóm câu hỏi này đều đã có sẵn trong tài liệu đề (README, SUBMISSION) | Feasibility | 4 | 4 | — Đã kiểm khi đọc đề |
-| 5 | Lớp cho phép thay đổi cách hỗ trợ trên Discord (ghim FAQ, thêm kênh hỏi đáp riêng hoặc công cụ trả lời) | Viability | 3 | 1 | Hỏi lab coach sau lab |
+| 5 | Lớp cho phép thay đổi cách hỗ trợ trên Discord (ghim FAQ, thêm kênh hỏi đáp riêng hoặc công cụ trả lời) | Viability | 3 | 1 | Hỏi lab coach  |
 
 
 
