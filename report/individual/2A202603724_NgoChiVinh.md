@@ -146,16 +146,16 @@ Tôi đưa card #1 cho AI đóng vai "PM hoài nghi".
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 card: đọc đề lab nhiều file, lab coach bị hỏi lặp lại về cách nộp bài, lab vượt thời lượng buổi học (dòng 4–6 bảng pitch, commit `7a450a0`) | Card "lab coach bị hỏi lặp lại" (#5) được nhóm chọn làm candidate, điểm cao nhất trong shortlist |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: [?] | [?] |
+| Nhận phản biện | Câu hỏi tôi nhận được: [?] | Tôi đã sửa gì: [?] |
+| Gom cluster / cây OST | [?] | Card #5 của tôi được xếp chung cluster B với card "khách hỏi giá/size/ship" của Khoa (cùng pattern trả lời câu hỏi lặp lại) |
+| Chọn candidate problem | Card #5 của tôi được chọn; số liệu tôi đưa ra (khoảng 30–40 lần hỏi trên Discord) là lý do chính giúp card có điểm "pain có bằng chứng" cao nhất | Candidate của nhóm: lab coach phải trả lời lặp lại câu hỏi về cách nộp bài |
+| Kiểm chứng / research | Soạn Assumption Map và bộ câu hỏi phỏng vấn theo The Mom Test (commit `24d9b1e`, file `report/assets/cp4-interview-guide.md`); làm bảng research 3.3 (commit `2c0dc21`, `38a7e1f`) | Research cho thấy bài toán đã có lời giải đơn giản (câu trả lời soạn sẵn, Forum Channel), không cần tự xây AI. Tôi phát hiện nguồn GitHub Classroom không khớp bài (giải chuyện đặt tên repo, không phải chuyện coach trả lời lặp lại) và thay bằng Zendesk Macros |
+| Quy trình nhóm | [?] | Quy trình hiện tại và tương lai do Khoa vẽ (mục 4 báo cáo nhóm) |
+| Problem Statement | [?] | Problem Statement v0 và v1 do Khoa viết (mục 5 và 7 báo cáo nhóm) |
+| Mức can thiệp AI | [?] | Nhóm chọn **No AI**, đúng với kết luận research |
+| Quyết định | Sau khi coach nói không coi việc trả lời lặp lại là pain, tôi đề xuất **giữ nguyên actor lab coach** và chấp nhận bài có thể thất bại, thay vì đổi actor sang học viên cho bài "đẹp" hơn | Nhóm giữ actor, ghi rủi ro Value ở mức Trung bình–Cao và ra quyết định **Not Yet** |
 
 ---
 
@@ -163,12 +163,12 @@ Tôi đưa card #1 cho AI đóng vai "PM hoài nghi".
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Viết lại các ý tôi tự nghĩ thành Job Story; gợi ý thêm problem | Viết lại #1 cho rõ tình huống và kết quả (ban đầu tôi chỉ ghi "làm lab vào buổi học đầu tiên"); tách #3 và #4 cho khỏi trùng | Gợi ý ý "tìm thông báo cũ trong group lớp" bị trùng với #3, #4; gợi ý "theo dõi ai làm phần nào" mà tôi không thật sự gặp; tự ghi lý do giữ ý thay tôi | Bỏ 2 ý không phải pain thật của tôi, đổi #5 sang "ôn bài từ nhiều nguồn"; tự điền số liệu thật (6 giờ, 20 phút, 30 phút, 30–40 lần) |
+| CP2 Problem Card | Soạn nháp 3 Problem Card, quy trình nháp; đóng vai "PM hoài nghi" phản biện card #1 | Chỉ ra `CHECKPOINTS.md` đã có sẵn bảng "CP – ghi vào đâu", nên pain "đọc nhiều file" có thể nhỏ hơn tôi nghĩ | Số phút cho từng bước trong quy trình là AI ước lượng để cộng lại cho khớp tổng, không phải số tôi đo | Thu hẹp bottleneck card #1 về bước ghép thông tin giữa các file; [?] (ghi các số phút bạn đã sửa lại theo thực tế) |
+| CP4 Research | Soạn Assumption Map, bộ câu hỏi phỏng vấn; tìm giải pháp đã có | Bộ câu hỏi theo The Mom Test, có danh sách câu không được hỏi; tìm được case Jill Watson và Discord Forum Channels | Đưa GitHub Classroom vào research dù nó giải chuyện đặt tên repo, không khớp bài "coach trả lời lặp lại"; 1 link Georgia Tech bị lỗi 404, trang trợ giúp Discord và tài liệu Carl-bot không mở được để kiểm; sau phỏng vấn coach, AI đề xuất đổi actor sang học viên | Yêu cầu thay GitHub Classroom bằng nguồn đúng bài (Zendesk Macros); tự mở lại các link; quyết định **giữ actor lab coach** thay vì đổi theo đề xuất của AI |
+| CP5 Quy trình | [?] | | | |
+| CP5–6 Problem Statement | [?] | | | |
+| CP6 Mức can thiệp / quyết định | [?] | | | |
 
 ---
 
@@ -194,4 +194,8 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 ## 7. Tài liệu tham khảo
 
--
+- Đề lab: `README.md`, `RULES.md`, `CHECKPOINTS.md`, `docs/01-worksheet.md`, `docs/02-deliverable-example.md`.
+- Rob Fitzpatrick, *The Mom Test* (cách đặt câu hỏi phỏng vấn), qua `docs/01-worksheet.md`.
+- Zendesk, *Creating macros for repetitive ticket responses and actions*: https://support.zendesk.com/hc/en-us/articles/4408844187034-Creating-macros-for-repetitive-ticket-responses-and-actions
+- Discord Blog, *Forum Channels*: https://discord.com/blog/forum-channels-space-for-organized-conversation
+- Georgia Tech, *Artificial Intelligence Course Creates AI Teaching Assistant* (Jill Watson): https://provost.gatech.edu/news/artificial-intelligence-course-creates-ai-teaching-assistant

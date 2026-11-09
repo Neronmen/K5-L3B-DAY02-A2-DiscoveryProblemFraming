@@ -54,3 +54,28 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 -
+
+### NgoChiVinh-2A202603724
+
+**Phần việc phụ trách:**
+
+- Đưa ra candidate được nhóm chọn (card #5: lab coach bị hỏi lặp lại về cách nộp bài).
+- CP4: Assumption Map, bộ câu hỏi phỏng vấn theo The Mom Test, research giải pháp đã có.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch 3 Problem Card (dòng 4–6 bảng pitch); card #5 được chọn làm candidate của nhóm.
+- Soạn Assumption Map 5 giả định (mục 3.1 `group_report.md`) và bộ câu hỏi phỏng vấn lab coach, học viên, cách đếm log Discord (`report/assets/cp4-interview-guide.md`).
+- Làm bảng research 3.3 với 3 nguồn đã kiểm link (Zendesk Macros, Discord Forum Channels, Jill Watson) và phần kết luận research; thay nguồn GitHub Classroom vì không khớp với bài.
+- Viết mục "Nhóm đã sửa problem thế nào sau kiểm chứng": đề xuất giữ actor lab coach dù kết quả phỏng vấn phản bác giả định về pain.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- Bảng pitch dòng 4–6: commit `7a450a0`.
+- Assumption Map (mục 3.1) và `report/assets/cp4-interview-guide.md`: commit `24d9b1e`.
+- Mục "Nhóm đã sửa problem…" và research 3.3: commit `2c0dc21`, `38a7e1f`.
+- Báo cáo cá nhân CP1–CP2: commit `dbc9c1b`.
+
+**Điều mình học được từ phần nhóm:**
+
+- [?]
