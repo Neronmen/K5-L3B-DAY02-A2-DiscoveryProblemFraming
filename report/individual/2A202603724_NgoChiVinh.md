@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — MSSV_HoTen
+# Báo cáo cá nhân — 2A202603724_NgoChiVinh
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -6,11 +6,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
+- Họ tên: Ngô Chí Vĩnh
+- MSSV: 2A202603724
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Tên nhóm: A2
+- Link repo nhóm: https://github.com/Neronmen/K5-L3B-DAY02-A2-DiscoveryProblemFraming
 
 ---
 
@@ -20,18 +20,19 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
+| 1 | Tốn thời gian | Khi làm bài lab trong buổi học, tôi muốn hoàn thành đúng yêu cầu trong thời gian buổi lab, để không phải làm thêm buổi tối và không bị trễ deadline | Học viên, cả nhóm | Là việc tôi mất nhiều thời gian nhất tuần trước: lab buổi đầu mất khoảng 6 giờ, trong khi buổi lab chỉ có 4 giờ; phần lâu nhất là các phần tự code tay |
+| 2 | Lặp lại | Khi tới giờ ăn trưa hoặc tối, tôi muốn nhanh chóng chốt được hôm nay ăn gì và đặt món, để không mất thời gian lướt app và phân vân | Bản thân, bạn đi ăn cùng | Mỗi lần mất khoảng 20 phút, 1 lần/ngày |
+| 3 | Cần đọc, tổng hợp nhiều thông tin | Khi bắt đầu một bài lab mới, tôi muốn biết mỗi checkpoint phải làm gì, ghi vào file nào và được chấm theo tiêu chí nào, để không phải mở đi mở lại nhiều file đề mới ghép được các thông tin đó | Học viên | Đề lab Day02 có 6 file ở thư mục gốc và 3 file trong `docs/`. Thông tin về cùng một việc nằm rải rác: tên repo ở README, deadline ở SUBMISSION, quy định dùng AI ở RULES, cách chấm ở RUBRIC. Tôi mất khoảng 30 phút để đọc và hiểu. |
+| 4 | Pain từ người khác | Khi sắp tới hạn nộp lab, lab coach muốn học viên tự kiểm tra được tên repo, tên file và cách nộp, để không phải trả lời đi trả lời lại cùng một câu hỏi và còn thời gian hỗ trợ phần nội dung bài | Lab coach, học viên | Tôi thấy nhiều bạn hỏi lab coach cùng một câu về cách đặt tên và cách nộp. Ước lượng khoảng 30-40 lần từ buổi đầu làm lab, hỏi lab coach trong buổi kênh discord |
+| 5 | Cần đọc, tổng hợp nhiều thông tin | Khi chuẩn bị cho buổi học hoặc buổi lab tiếp theo, tôi muốn nắm lại ý chính của các buổi trước đang nằm rải rác ở slide, video bài giảng và ghi chú, để vào lớp theo kịp bài mà không phải xem lại từ đầu | Học viên | Mỗi lần ôn mất khoảng 30 phút. |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
--
+- Tôi tự scan trước được 4 ý (#1–#4), sau đó hỏi AI gợi ý thêm theo 4 lăng kính.
+- Giữ lại #5 (ôn lại bài cũ từ nhiều nguồn: slide, video bài giảng, ghi chú).
+- Bỏ các ý "tìm lại thông báo cũ trong group lớp" (trùng với #3 và #4, cùng là chuyện thông tin lớp học) và "theo dõi ai làm phần nào khi làm nhóm" (tôi chưa thấy đây là vấn đề thật).
+- AI giúp tôi viết lại #1 cho rõ, vì ban đầu tôi chỉ ghi "làm lab vào buổi học đầu tiên", chưa nói rõ tình huống và kết quả mong muốn.
+- Tôi tách #3 và #4 cho khỏi trùng nhau: #3 là cái khó của chính tôi khi đọc đề (thông tin nằm rải rác ở nhiều file), còn #4 là pain của lab coach khi phải trả lời lặp lại cùng một câu hỏi.
 
 ---
 
@@ -41,84 +42,103 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Đọc nhiều file đề lab để biết phải làm gì (#3) | Lặp lại mỗi lab, quy trình vẽ được rõ (đọc từng file rồi ghép lại), có baseline 30 phút, cả lớp đều gặp | `CHECKPOINTS.md` đã có bảng tóm tắt "CP – ghi vào đâu", nên pain có thể chỉ nằm ở bước ghép với RUBRIC; 30 phút mới là ước lượng của 1 lần |
+| 2 | Lab coach bị hỏi lặp lại về cách đặt tên và cách nộp (#4) | Nhiều người cùng gặp (khoảng 30–40 lần), có bằng chứng kiểm lại được trên kênh Discord, impact cho cả coach và học viên | Con số 30–40 là ước lượng, cần đếm lại; chưa hỏi lab coach xem họ có thấy đây là pain không |
+| 3 | Làm lab mất 6 giờ trong khi buổi học có 4 giờ (#1) | Pain lớn nhất của tôi, vượt 2 giờ so với thời lượng buổi lab | Còn rộng: "tự code tay" chưa tách được bước nghẽn cụ thể; có thể do kiến thức nền chứ không do quy trình |
 
-### Problem Card #1
+Bỏ #2 (chọn món ăn) vì khó vẽ quy trình và impact nhỏ. #5 (ôn bài) giữ làm dự phòng.
+
+### Problem Card #1 — Đọc đề lab nhiều file
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story | Khi bắt đầu một bài lab mới, tôi muốn biết mỗi checkpoint phải làm gì, ghi vào file nào và được chấm theo tiêu chí nào, để không phải mở đi mở lại nhiều file đề mới ghép được các thông tin đó |
+| Actor | Học viên K5 lúc mới nhận đề lab (đầu buổi học) |
+| Thời điểm / bối cảnh | 15–30 phút đầu buổi lab, trước khi bắt tay vào CP1; đề gồm 6 file ở thư mục gốc và 3 file trong `docs/` |
+| Quy trình hiện tại (3–7 bước) | 1. Đọc README (tổng quan, thứ tự đọc) · 2. Đọc RULES (được dùng AI ở đâu) · 3. Đọc CHECKPOINTS (CP0–CP7) · 4. Đọc RUBRIC (điểm từng phần) · 5. Đọc SUBMISSION (tên repo, deadline) · 6. Mở lại các file để ghép "CP này làm gì – ghi vào đâu – chấm thế nào" |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 6, ghép thông tin giữa các file: khoảng 8 phút, phải mở đi mở lại vì cùng một CP được nói ở 3–4 file khác nhau |
+| Impact (nếu không giải thì sao) | 30 phút mỗi lab bị dùng để đọc đề; nếu hiểu sai thì nộp thiếu mục hoặc ghi sai file và bị mất điểm; cả lớp cùng gặp ở mỗi lab |
+| Success metric (baseline → target) | Thời gian từ lúc mở đề đến lúc biết rõ CP1 phải làm gì: 30 phút → dưới 10 phút. Đo bằng tự bấm giờ ở lab tiếp theo |
+| Phương án không dùng AI | Một bảng tổng hợp 1 trang "CP – làm gì – ghi vào file nào – tiêu chí RUBRIC", làm một lần rồi dùng lại; hoặc đề nghị thêm cột tiêu chí chấm vào bảng sẵn có ở `CHECKPOINTS.md` |
+| Giả thuyết về AI (nếu có) | AI đọc toàn bộ file đề và soạn bảng tổng hợp CP – yêu cầu – nơi ghi – tiêu chí chấm, có ghi nguồn từng dòng lấy từ file nào; học viên đối chiếu lại với đề gốc |
+| Cảm nhận nhanh | Rule hoặc Workflow |
 
 Quy trình nháp hiện tại:
 
 ```text
+HIỆN TẠI — khoảng 30 phút / lab
 
+[1 Đọc README: 5'] → [2 Đọc RULES: 4'] → [3 Đọc CHECKPOINTS: 6']
+→ [4 Đọc RUBRIC: 4'] → [5 Đọc SUBMISSION: 3']
+→ [6 Mở lại các file, ghép thông tin từng CP: 8'] ← BOTTLENECK
 ```
 
-### Problem Card #2
+### Problem Card #2 — Lab coach bị hỏi lặp lại về cách nộp bài
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story | Khi sắp tới hạn nộp lab, lab coach muốn học viên tự kiểm tra được tên repo, tên file và cách nộp, để không phải trả lời đi trả lời lại cùng một câu hỏi và còn thời gian hỗ trợ phần nội dung bài |
+| Actor | Lab coach phụ trách lớp L3B (người trả lời); học viên sắp nộp bài (người hỏi) |
+| Thời điểm / bối cảnh | Cuối buổi lab và trước deadline, câu hỏi gửi trên kênh Discord của lớp |
+| Quy trình hiện tại (3–7 bước) | 1. Học viên làm xong, chuẩn bị nộp · 2. Không chắc tên repo / tên file / link nộp, mở lại README và SUBMISSION · 3. Vẫn không chắc, hỏi trên Discord · 4. Chờ lab coach trả lời · 5. Lab coach đọc và trả lời (thường là câu đã trả lời trước đó) · 6. Học viên sửa tên hoặc nộp lại |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 5, lab coach trả lời lại cùng một câu: khoảng 3 phút/lần × 30–40 lần = 90–120 phút từ buổi lab đầu đến nay. Phía học viên, bước 4 chờ trả lời mất khoảng 15 phút |
+| Impact (nếu không giải thì sao) | Coach mất 1,5–2 giờ cho câu hỏi lặp lại thay vì hỗ trợ nội dung bài; học viên chờ, dễ nộp sai tên repo hoặc tên file và bị tính là nộp sai |
+| Success metric (baseline → target) | Số câu hỏi về đặt tên và cách nộp trên Discord mỗi lab: baseline đếm lại ở lab hôm nay → giảm ít nhất 50% ở lab tiếp theo. Đo bằng đếm tin nhắn trên Discord |
+| Phương án không dùng AI | Ghim một tin nhắn FAQ và checklist nộp bài trên Discord, có ví dụ tên repo đúng và sai; coach trả lời bằng link tới tin nhắn ghim thay vì gõ lại |
+| Giả thuyết về AI (nếu có) | AI trả lời câu hỏi về cách nộp dựa trên `SUBMISSION.md` và `README.md`; câu nào không có trong tài liệu thì chuyển cho coach |
+| Cảm nhận nhanh | Rule |
 
 Quy trình nháp hiện tại:
 
 ```text
+HIỆN TẠI — khoảng 29 phút / 1 lần hỏi (phía học viên)
 
+[1 Làm xong, chuẩn bị nộp] → [2 Mở lại README, SUBMISSION: 5']
+→ [3 Hỏi trên Discord: 1'] → [4 Chờ coach trả lời: 15']
+→ [5 Coach trả lời lại câu đã trả lời: 3'] ← BOTTLENECK (lặp lại 30–40 lần)
+→ [6 Học viên sửa tên / nộp lại: 5']
 ```
 
-### Problem Card #3
+### Problem Card #3 — Lab vượt thời lượng buổi học
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story | Khi làm bài lab trong buổi học, tôi muốn hoàn thành đúng yêu cầu trong thời gian buổi lab, để không phải làm thêm buổi tối và không bị trễ deadline |
+| Actor | Học viên K5 làm lab có phần code (lab tuần trước) |
+| Thời điểm / bối cảnh | Trong buổi lab 4 giờ, phần còn lại phải làm tiếp buổi tối |
+| Quy trình hiện tại (3–7 bước) | 1. Đọc đề, hiểu yêu cầu · 2. Chuẩn bị repo và môi trường · 3. Tự code các phần yêu cầu · 4. Chạy thử, sửa lỗi · 5. Viết báo cáo và nộp |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Bước 3, tự code tay: khoảng 180 phút, chiếm một nửa tổng thời gian |
+| Impact (nếu không giải thì sao) | Vượt 2 giờ so với buổi lab, phải làm thêm buổi tối; dễ trễ deadline và ảnh hưởng phần việc của nhóm |
+| Success metric (baseline → target) | Tổng thời gian làm lab: 6 giờ → 4 giờ (trong buổi học). Đo bằng tự ghi giờ bắt đầu và kết thúc từng bước ở lab tiếp theo |
+| Phương án không dùng AI | Đọc đề và tài liệu trước buổi học; hỏi coach ngay khi kẹt quá 15 phút; chia phần code trong nhóm |
+| Giả thuyết về AI (nếu có) | Chưa rõ: cần tách bước 3 thành các bước nhỏ hơn (kẹt ở cú pháp, logic hay đọc tài liệu) mới biết AI có giúp được không |
+| Cảm nhận nhanh | Chưa biết |
 
 Quy trình nháp hiện tại:
 
 ```text
+HIỆN TẠI — khoảng 6 giờ (360 phút) / lab, buổi học chỉ có 4 giờ
 
+[1 Đọc đề: 30'] → [2 Chuẩn bị repo, môi trường: 30']
+→ [3 Tự code các phần yêu cầu: 180'] ← BOTTLENECK
+→ [4 Chạy thử, sửa lỗi: 60'] → [5 Viết báo cáo, nộp: 60']
 ```
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: 1 (Đọc đề lab nhiều file)
+- Vì sao: quy trình rõ và lặp lại ở mọi lab; cả nhóm đang trải qua đúng việc này ở lab hôm nay nên dễ kiểm chứng ở CP4; bottleneck là một bước cụ thể và đo được bằng bấm giờ.
+- Câu hỏi muốn nhóm phản biện: `CHECKPOINTS.md` đã có bảng "CP – ghi vào đâu". Vậy pain có còn thật không, hay chỉ cần thêm một cột tiêu chí chấm vào bảng đó (No AI) là đủ?
 
 ### AI đã phản biện card thế nào
 
+Tôi đưa card #1 cho AI đóng vai "PM hoài nghi".
+
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| Baseline 30 phút chỉ là ước lượng từ 1 lần đọc đề | Đồng ý | Ghi rõ là ước lượng; sẽ bấm giờ thật ở lab tiếp theo và hỏi thêm 2–3 bạn ở CP4 |
+| `CHECKPOINTS.md` đã có bảng tóm tắt "CP – ghi vào đâu", nên "đọc nhiều file" có thể không phải pain thật | Đồng ý một phần | Thu hẹp bottleneck thành bước 6 (ghép thông tin giữa các file, nhất là với RUBRIC); thêm phương án No AI là bổ sung cột tiêu chí chấm vào bảng sẵn có |
+| Đề lab có format cố định giữa các lab, nghĩ tới AI là quá sớm | Đồng ý một phần | Đổi cảm nhận nhanh từ Workflow thành "Rule hoặc Workflow"; để CP6 so sánh 4 mức rồi mới chốt |
 
 ---
 
