@@ -129,29 +129,29 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày 3 candidate problem và tập trung vào card “theo dõi deadline và task còn lại của nhóm”, nêu actor, bottleneck và impact rõ ràng. | Card này được nhóm giữ lại để xét kỹ hơn vì có nhiều bằng chứng về thời gian lặp lại và tác động thực tế với deadline. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: “Bottleneck thật sự ở bước nào, không phải ở việc tổng hợp chung?”; “Nếu không có AI, cách đơn giản nhất để giảm 50% thời gian là gì?”; “Ai ngoài bạn cũng gặp vấn đề này?” | Những câu hỏi này giúp bạn khác kiểm tra lại tính thực tế của card và tránh trượt thành giải pháp “AI dashboard” quá sớm. |
+| Nhận phản biện | Câu hỏi tôi nhận được: “Vấn đề này có đủ rộng và đủ lớn để làm candidate chính không?”; “Bạn có bằng chứng cho thấy người dùng đang mất 20–30 phút mỗi tuần không?”; “AI cần can thiệp ở bước nào?” | Tôi đã sửa gì: thu hẹp focus từ “quản lý tiến độ chung” thành “tổng hợp deadline và task còn lại từ nhiều nguồn”, đồng thời làm rõ bottleneck là bước tổng hợp, không phải việc nhận thông tin. |
+| Gom cluster / cây OST | Giúp gom các pain liên quan đến “tìm lại thông tin”, “tổng hợp task”, và “theo dõi tiến độ nhóm” vào cùng một nhóm. | Nhóm nhìn thấy các candidate có cùng pattern, giúp giảm sự rời rạc và chọn candidate phù hợp hơn. |
+| Chọn candidate problem | Tham gia đánh giá 3 card theo độ lặp lại, tác động, mức pain và khả năng đo bằng metric. | Nhóm chốt candidate “Theo dõi deadline và task còn lại của nhóm” vì đây là bài toán có quy trình rõ, dễ đo và liên quan trực tiếp đến deadline. |
+| Kiểm chứng / research | Cùng nhóm kiểm tra lại cách team hiện đang theo dõi deadline ở LMS, chat nhóm, calendar và note, xem đâu là khó khăn thực sự. | Kết quả khiến nhóm xác nhận pain không chỉ là “quá nhiều thông tin”, mà là “thông tin nằm rải rác và cần tổng hợp lại trước deadline”. |
+| Quy trình nhóm | Tham gia thảo luận vòng 1: pitch → phản biện → gom cluster → shortlist → chốt. Mỗi người đưa 1–2 card, rồi cả nhóm đặt câu hỏi. | Quy trình này giúp bài nhóm được cải thiện đáng kể nhờ phản biện liên tục, không để solution-first chiếm ưu thế. |
+| Problem Statement | Đóng góp vào việc mô tả actor, quy trình hiện tại, bottleneck, impact, success metric và boundary. | Bản problem statement rõ ràng hơn khi tập trung vào bottleneck và không lẫn vào giải pháp. |
+| Mức can thiệp AI | Tham gia đánh giá mức AI phù hợp: không phải dùng agent, mà nên là workflow hỗ trợ tổng hợp và nhắc nhở. | Nhóm quyết định AI chỉ làm bước tổng hợp và ưu tiên, còn người dùng vẫn review trước khi gửi hoặc cập nhật. |
+| Quyết định | Hỗ trợ phân tích 4 rủi ro (value, usability, feasibility, viability) trước khi chốt lựa chọn. | Nhóm quyết định chọn candidate này với hướng đi “workflow + người review”, không đi thẳng vào agent hay giải pháp quá lớn. |
 
 ---
-
 ## 5. Dùng AI
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
+| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Dùng AI để rà soát các ý tưởng và phân loại theo lăng kính như lặp lại, tốn thời gian, pain từ người khác. | AI giúp tôi nhanh chóng gom nhiều ý thành nhóm và phát hiện yếu tố trùng lặp. | AI dễ gợi ra các vấn đề quá rộng như “AI quản lý thời gian” hoặc “AI giúp làm báo cáo”, khiến tôi phải tách lại để giữ focus ở problem thực tế. | Tôi giữ lại các pain có quy trình rõ, có actor, có bằng chứng thời gian/tần suất, và bỏ những ý quá rộng hoặc trượt thành giải pháp. |
+| CP2 Problem Card | Dùng AI để phản biện từng problem card, xem có đang “đi thẳng vào feature” hay chưa. | AI rất hữu ích khi hỏi: “vấn đề này có đủ rõ, đủ lớn, đủ đo được không?” | AI không tự biết bối cảnh cụ thể của nhóm; nó có thể làm cho problem nghe hấp dẫn nhưng chưa chắc thực tế. | Tôi chỉnh lại các card để tập trung vào bottleneck rõ ràng, actor rõ ràng và metric có thể đo trong tuần. |
+| CP4 Research | Dùng AI để đề xuất câu hỏi phỏng vấn và cách đánh giá giả định. | AI giúp viết các câu hỏi mở, không dẫn dắt, để tập trung vào trải nghiệm thật của người gặp vấn đề. | AI thường đưa ra câu hỏi quá chung chung hoặc quá “có tính sale”; nó không thay thế được việc nghe người thật. | Tôi chỉ dùng AI như một bộ câu hỏi gợi ý, rồi sửa theo format “nghe người đó kể lại trải nghiệm cụ thể”. |
+| CP5 Quy trình | Dùng AI để kiểm tra chuỗi quy trình hiện tại và xem có bước nào bị gộp hoặc bỏ qua không. | AI giúp nhìn lại luồng: từ tìm thông tin → xử lý → kiểm tra → gửi đi. | AI có xu hướng gộp hai bước thành một khi thực chất chúng khác nhau, như “tổng hợp task” và “xác nhận deadline”. | Tôi kiểm tra lại từng bước và giữ lại bottleneck cụ thể, không để AI tự rút gọn quá mức. |
+| CP5–6 Problem Statement | Dùng AI để đọc lại problem statement và đặt câu hỏi phản biện: metric đáng tin không, boundary có rõ không, có lẫn giải pháp không. | AI rất hiệu quả khi tạo ra “các lỗ hổng” cần xem lại. | AI đôi khi cho phản biện quá mơ hồ hoặc quá chung chung, không gắn với báo cáo của nhóm. | Tôi viết lại phần problem statement dựa trên nhận định của mình và dùng AI như lời nhắc, không như người quyết định. |
+| CP6 Mức can thiệp / quyết định | Dùng AI để đối chiếu giữa “No AI / Rule / Workflow / Agent” và chọn mức phù hợp. | AI giúp tôi nhìn được sự khác nhau giữa mức đơn giản và mức phức tạp. | AI có thể khiến nhóm nghĩ “nếu có thể thì cứ dùng AI”, trong khi bài toán thực ra chỉ cần rule hoặc workflow. | Tôi tập trung vào boundary, người kiểm tra và phương án quay về, vì đó là tiêu chí cốt lõi để quyết định mức can thiệp đúng. |
 
 ---
 
