@@ -137,15 +137,15 @@ Tổng hợp:
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| GitHub Classroom (group assignment) | https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment | Bước đặt tên repo: GitHub Classroom tự tạo một repo chung cho mỗi nhóm, tên repo = tiền tố (mặc định là tên bài) + tên nhóm | Bỏ hẳn bước học viên tự fork và tự đặt tên, nên không thể đặt sai tên repo | Phải do người tổ chức lớp thiết lập, học viên không tự làm được; đổi cả cách lớp đang nộp bài (fork và nộp link trên LMS); không giải quyết tên file báo cáo cá nhân | Một phần bài toán giải được bằng **Rule** (tự động hóa việc đặt tên), không cần AI. Nhưng đây là quyết định của chương trình, ngoài tầm của học viên |
+| Zendesk Macros (câu trả lời soạn sẵn cho câu hỏi lặp lại) | https://support.zendesk.com/hc/en-us/articles/4408844187034-Creating-macros-for-repetitive-ticket-responses-and-actions | Bước coach gõ tay câu trả lời: nhân viên hỗ trợ lưu sẵn câu trả lời cho các vấn đề lặp lại rồi áp dụng khi cần, có placeholder để cá nhân hóa | Đúng pattern của bài: Zendesk viết rằng macro *"saves agents the time and effort of manually responding to multiple customers with the same issue"*; có macro cá nhân và macro dùng chung | Zendesk là công cụ trả phí cho bộ phận chăm sóc khách hàng, không dùng trực tiếp trên Discord; người trả lời vẫn phải đọc câu hỏi và chọn đúng câu trả lời | Pattern **No AI / Rule**: coach chỉ cần một file câu trả lời soạn sẵn để copy, hoặc một tin nhắn ghim để gửi link. Không cần AI, và vẫn giữ người trả lời trong vòng lặp |
 | Discord Forum Channels | https://discord.com/blog/forum-channels-space-for-organized-conversation | Bước tìm câu trả lời trước khi hỏi: mỗi chủ đề là một post riêng, có Post Guidelines hiện ra khi tạo post mới, có tag và thanh tìm kiếm để xem các post cũ | Có sẵn trong Discord, không phải xây gì; câu đã trả lời không bị trôi như trong kênh chat thường | Học viên vẫn phải chủ động tìm trước khi hỏi; cần coach hoặc admin server tạo kênh và gắn tag; coach đã nói không thấy cần thay đổi | Phương án **No AI** rẻ nhất: gom các câu hỏi về cách nộp vào một chỗ tìm được. Cần kiểm xem học viên có thật sự tìm trước khi hỏi không |
 | Jill Watson, trợ giảng AI ở Georgia Tech | https://provost.gatech.edu/news/artificial-intelligence-course-creates-ai-teaching-assistant | Bước trả lời câu hỏi lặp lại: lớp khoảng 300 học viên, khoảng 10.000 tin nhắn trên diễn đàn mỗi khóa; Jill trả lời các câu thường gặp như "bài tập và tài liệu đọc ở đâu" | Học từ khoảng 40.000 bài đăng cũ; chỉ trả lời khi chắc chắn 97%; giai đoạn đầu trợ giảng người xem lại câu trả lời rồi mới đăng | Quy mô lớn hơn lớp mình rất nhiều; các tuần đầu trả lời sai, cần người duyệt; bài viết từ năm 2016 | Pattern **Workflow có người duyệt**: AI chỉ trả lời khi chắc chắn, còn lại chuyển cho người. Với lớp nhỏ và coach không thấy pain, mức này nhiều khả năng là **quá tay** |
 
 **Kết luận research:**
 
 ```text
-Bài toán "hỏi lặp lại về cách nộp" đã có lời giải ở cả 3 mức:
-- Rule: GitHub Classroom tự đặt tên repo (cần chương trình thiết lập).
+Bài toán "hỏi lặp lại về cách nộp" đã có lời giải ở nhiều mức:
+- No AI / Rule: câu trả lời soạn sẵn (macro kiểu Zendesk) để coach không phải gõ lại từ đầu.
 - No AI: Forum Channel trên Discord gom câu hỏi và câu trả lời vào một chỗ tìm được.
 - Workflow có người duyệt: trợ giảng AI như Jill Watson, chỉ đáng làm khi lượng câu hỏi rất lớn.
 Với lớp mình (coach không coi đây là pain và không muốn thay đổi cách hỗ trợ),
