@@ -107,3 +107,13 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 - Đưa ra 3 candidate cho nhóm thảo luận và lựa chọn
 - Thảo luận và trực tiếp trao đổi với lab coach về Cp4
+
+**Đóng góp cụ thể**
+- Đưa ra candidate 7, 8, 9 ở pitch 2.1
+- Phỏng vấn, trao đổi trực tiếp với lab coach để có dữ liệu điền vào bảng Snapshot #1 — Lab coach.
+  
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- Bảng pitch dòng 7-9: commit 0949698
+- Dữ liệu bảng Snapshot #1 — Lab coach.
+- Báo cáo cá nhân CP1-CP2.
