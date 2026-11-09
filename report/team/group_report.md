@@ -108,22 +108,22 @@ Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
 
 Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
 
+**Snapshot #1 — Lab coach**
+
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | 1 lab coach trong khóa học |
+| Câu nói đáng nhớ nhất (nguyên văn) |  coach nói là có bị hỏi nhiều, nhưng chấp nhận việc trả lời lặp lại vì đó là công việc của mình, không thấy cần một công cụ/giải pháp thay thế.
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | *[chưa hỏi chi tiết 1 tình huống cụ thể — có thể hỏi thêm nếu phỏng vấn lại]* |
+| Hiện đang xử lý bằng cách nào (workaround)? | Tự trả lời tay từng câu hỏi trên Discord, coi đây là một phần trách nhiệm hỗ trợ học viên |
+| Mất bao lâu, bao lần? | `Chưa đo – cần xác minh` — coach xác nhận định tính "có hỏi nhiều", nhưng chưa có con số cụ thể (số lần/tuần, số phút/lần) |
+| Insight / opportunity rút ra | Coach xác nhận **có bị hỏi nhiều** (ủng hộ giả định #1), nhưng nói thẳng **"nó không cần thiết"** khi được hỏi về việc có cần một giải pháp/công cụ hỗ trợ hay không — coach chấp nhận trả lời lặp lại là một phần công việc, không chủ động thấy đây là nỗi đau cần giải quyết (phản bác giả định #2 và #5). → Opportunity có thể cần đổi hướng: không phải "giúp coach bớt việc", mà nên hỏi thêm **phía học viên** xem họ có thấy mất thời gian khi phải chờ/hỏi lại không — vì đó mới là actor còn lại chưa được xác nhận |
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
-
-**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+| Phỏng vấn lab coach | 1 | Coach xác nhận **có bị hỏi lặp lại nhiều** (ủng hộ giả định #1 — tần suất thật có) | Coach nói **"không cần thiết"** phải có giải pháp — chấp nhận trả lời lặp lại là trách nhiệm công việc, không thấy đây là vấn đề cần giải quyết (phản bác giả định #2 và #5: coach không chủ động muốn thay đổi cách hỗ trợ) |
 
 ### 3.3. Research giải pháp đã có
 
