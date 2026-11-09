@@ -7,7 +7,7 @@
 
 - Tên nhóm: A2
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu): *[điền sau khi nhóm hội tụ xong CP3]*
+- Candidate problem được chọn (1 câu): Lab coach phải trả lời lặp lại câu hỏi về cách nộp bài (tên repo, tên file, cách nộp) trước mỗi hạn deadline
 - Quyết định cuối: *[điền sau CP6]*
 
 ---
@@ -16,58 +16,75 @@
 
 ### 2.1. Pitch
 
-> Mẫu dòng 1–3 là của Phạm Nguyên Khoa (đã điền sẵn làm ví dụ). Các dòng 4–9 (hoặc tới 12 nếu nhóm đông hơn) do 2 thành viên còn lại tự điền từ Problem Card của họ khi pitch thật trong buổi lab — không điền thay nhau.
-
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
 | 1 | Phạm Nguyên Khoa | Khi khách hàng nhắn hỏi giá/size/màu/ship, tôi muốn trả lời nhanh mà không gõ lại nhiều lần, để không bỏ lỡ khách | Người bán hàng online nhỏ lẻ | Tra lại thông tin sản phẩm (chưa đo thời gian) | *[điền khi pitch thật]* |
 | 2 | Phạm Nguyên Khoa | Khi tìm việc làm thêm/thực tập, tôi muốn tổng hợp tin tuyển dụng phù hợp tại một nơi, để không mất thời gian tìm trên nhiều nguồn | Sinh viên, người mới đi làm | Chuyển qua lại giữa 4–5 nguồn, lọc lại từ đầu mỗi lần (chưa đo thời gian) | *[điền khi pitch thật]* |
 | 3 | Phạm Nguyên Khoa | Khi ứng tuyển nhiều công ty, tôi muốn đối chiếu CV với JD và biết cần bổ sung gì, để tiết kiệm thời gian chỉnh sửa hồ sơ | Sinh viên mới tốt nghiệp, người đang tìm việc | Đối chiếu từng yêu cầu JD với CV (chưa đo thời gian) | *[điền khi pitch thật]* |
-| 4 | Ngô Chí Vĩnh | Khi bắt đầu một bài lab mới, tôi muốn biết mỗi checkpoint phải làm gì, ghi vào file nào và chấm theo tiêu chí nào, để không phải mở đi mở lại nhiều file đề | Học viên K5 lúc mới nhận đề lab | Ghép thông tin giữa 6–9 file đề (khoảng 8 trong 30 phút đọc đề) | *[điền khi pitch thật]* |
-| 5 | Ngô Chí Vĩnh | Khi sắp tới hạn nộp lab, lab coach muốn học viên tự kiểm tra được tên repo, tên file và cách nộp, để không phải trả lời lặp lại cùng một câu hỏi | Lab coach (người trả lời), học viên sắp nộp (người hỏi) | Coach trả lời lại cùng câu hỏi: khoảng 3 phút/lần × 30–40 lần trên Discord | *[điền khi pitch thật]* |
-| 6 | Ngô Chí Vĩnh | Khi làm bài lab trong buổi học, tôi muốn hoàn thành trong thời gian buổi lab, để không phải làm thêm buổi tối và không trễ deadline | Học viên K5 làm lab có phần code | Tự code tay: khoảng 180 trong 360 phút (lab 6 giờ, buổi học 4 giờ) | *[điền khi pitch thật]* |
-| 7 | Nguyễn Ngọc Ninh |Khi đến cuối tuần, tôi muốn có danh sách deadline và task còn lại ở một nơi, để nộp đúng hạn mà không bỏ sót việc quan trọng |Sinh viên làm việc nhóm | Tổng hợp và đối chiếu nhiều nguồn dữ liệu| |
-| 8 | Nguyễn Ngọc Ninh |Khi cần tìm tài liệu, note hoặc file nhóm trên LMS/Drive/Slack, tôi muốn tìm đúng phiên bản và định dạng, để không mất công đọc lại từ đầu |Sinh viên, nhóm học tập |Tìm đúng file và xác định phiên bản phù hợp | |
-| 9 | Nguyễn Ngọc Ninh | Khi muốn đặt câu hỏi cho giảng viên hoặc mentor, tôi muốn suy nghĩ và đưa ra câu hỏi ngắn gọn, đúng trọng tâm, để không làm mất thời gian của người khác|Sinh viên, trợ giảng, giảng viên |Lọc vấn đề và viết câu hỏi đúng trọng tâm | |
+| 4 | Ngô Chí Vĩnh | Khi bắt đầu một bài lab mới, tôi muốn biết mỗi checkpoint phải làm gì, ghi vào file nào và chấm theo tiêu chí nào, để không phải mở đi mở lại nhiều file đề | Học viên K5 lúc mới nhận đề lab | Ghép thông tin giữa 6–9 file đề (~8/30 phút đọc đề) | *[điền khi pitch thật]* |
+| 5 | Ngô Chí Vĩnh | Khi sắp tới hạn nộp lab, lab coach muốn học viên tự kiểm tra được tên repo, tên file và cách nộp, để không phải trả lời lặp lại cùng một câu hỏi | Lab coach (người trả lời), học viên sắp nộp (người hỏi) | Coach trả lời lại cùng câu hỏi: ~3 phút/lần × 30–40 lần trên Discord | *[điền khi pitch thật]* |
+| 6 | Ngô Chí Vĩnh | Khi làm bài lab trong buổi học, tôi muốn hoàn thành trong thời gian buổi lab, để không phải làm thêm buổi tối và không trễ deadline | Học viên K5 làm lab có phần code | Tự code tay: ~180/360 phút (lab 6 giờ, buổi học 4 giờ) | *[điền khi pitch thật]* |
+| 7 | Nguyễn Ngọc Ninh | Khi đến cuối tuần, tôi muốn có danh sách deadline và task còn lại ở một nơi, để nộp đúng hạn mà không bỏ sót việc quan trọng | Sinh viên làm việc nhóm | Tổng hợp và đối chiếu nhiều nguồn dữ liệu | "Nên tập trung vào deadline hay cảnh báo trễ sớm hơn?" (thành viên nhóm) |
+| 8 | Nguyễn Ngọc Ninh | Khi cần tìm tài liệu, note hoặc file nhóm trên LMS/Drive/Slack, tôi muốn tìm đúng phiên bản và định dạng, để không mất công đọc lại từ đầu | Sinh viên, nhóm học tập | Tìm đúng file và xác định phiên bản phù hợp | "AI có cần thiết hay chỉ cần quy tắc đặt tên?" (thành viên nhóm) |
+| 9 | Nguyễn Ngọc Ninh | Khi muốn đặt câu hỏi cho giảng viên hoặc mentor, tôi muốn suy nghĩ và đưa ra câu hỏi ngắn gọn, đúng trọng tâm, để không làm mất thời gian của người khác | Sinh viên, trợ giảng, giảng viên | Lọc vấn đề và viết câu hỏi đúng trọng tâm | "Vấn đề này có đủ impact để chọn làm candidate chính?" (thành viên nhóm) |
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A | #2, #4, #7, #8 | Thông tin cần dùng (tin tuyển dụng, file đề lab, deadline/task, tài liệu nhóm) nằm rải rác ở nhiều nguồn/file khác nhau, không có một nơi tổng hợp duy nhất |
+| B | #1, #5 | Phải trả lời lặp lại cùng một loại câu hỏi cho nhiều người khác nhau (khách hàng hỏi giá/ship; học viên hỏi coach cách nộp bài) |
+| C | #3, #9 | Cần đối chiếu hoặc chọn lọc nội dung của chính mình theo đúng yêu cầu/trọng tâm trước khi gửi đi (CV so với JD; câu hỏi so với vấn đề thật) |
+| — (chưa gom) | #6 | Hoàn thành lab trong thời gian buổi học — đây là pain về khối lượng công việc/thời gian code, không phải tìm kiếm hay trả lời thông tin, nên tạm để riêng, không ép vào cluster nào |
+
+> *Ghi chú: đây là cách gom dựa trên đọc lại 9 candidate — khi nhóm họp thật, mỗi người nói lại cảm nhận của mình, có thể gom khác đi (ví dụ #6 có thể nhập vào cluster A nếu nhóm thấy "thiếu thời gian" cũng là một dạng "thiếu tổng hợp thông tin kế hoạch").*
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giảm thời gian học viên/người dùng mất vào việc tìm kiếm, tổng hợp hoặc trả lời
+         thông tin lặp lại đang nằm rải rác ở nhiều nguồn
+├── Opportunity A: Thông tin cần dùng (tin tuyển dụng, file đề lab, deadline, tài liệu
+│                   nhóm) nằm rải rác nhiều nơi, không có chỗ tổng hợp duy nhất
+├── Opportunity B: Phải trả lời lặp lại cùng một câu hỏi cho nhiều người khác nhau
+└── Opportunity C: Cần tự đối chiếu/chọn lọc nội dung của mình theo đúng yêu cầu
+                    trước khi gửi hoặc nộp
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- Không có ý nào trong 9 candidate viết thẳng tên công cụ hay chữ "AI" vào mô tả vấn đề — cả 9 đều ở dạng Job Story đúng chuẩn. Riêng câu hỏi phản biện của #8 ("AI có cần thiết hay chỉ cần quy tắc đặt tên?") là câu hỏi tốt, nhắc nhóm cẩn thận không nhảy sang giải pháp AI quá sớm khi bàn Opportunity A.
+- Candidate #6 (hoàn thành lab trong giờ) tạm **không đưa vào cây** vì là vấn đề khối lượng/thời gian, không cùng nhóm "tìm kiếm – tổng hợp – trả lời thông tin" với outcome đang chọn.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
+> Shortlist 3 candidate dưới đây là **1 đại diện cho mỗi cluster ở mục 2.2** — chọn candidate có bằng chứng/quy trình rõ nhất trong cluster đó, để nhóm dễ so sánh thay vì chấm hết cả 9.
+
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| #5 (cluster B) — Coach trả lời lặp lại câu hỏi nộp bài | 5 | 4 | 5 | 5 | 5 | 4 | 5 | **33** |
+| #8 (cluster A) — Tìm đúng file/phiên bản tài liệu nhóm | 4 | 3 | 3 | 3 | 4 | 4 | 5 | 26 |
+| #9 (cluster C) — Đặt câu hỏi đúng trọng tâm cho mentor | 4 | 3 | 2 | 2 | 3 | 3 | 5 | 22 |
 
-**Candidate được chọn:**
+*Thang điểm 1–5, 5 = tốt nhất. Đây là điểm mình chấm thử dựa trên dữ liệu đã có trong bảng pitch; khi họp thật, nhóm nên tự chấm lại theo cảm nhận của cả 3 người, có thể ra điểm khác.*
+
+**Candidate được chọn:** #5 — "Khi sắp tới hạn nộp lab, lab coach muốn học viên tự kiểm tra được tên repo, tên file và cách nộp, để không phải trả lời lặp lại cùng một câu hỏi."
 
 **Vì sao chọn:**
+- Điểm tổng cao nhất (33/35), vượt hẳn 2 candidate còn lại.
+- Là candidate **duy nhất trong 3 cái có số liệu cụ thể** ngay từ đầu (~3 phút/lần × 30–40 lần trên Discord) — gần với yêu cầu "bằng chứng là hành vi đã xảy ra" của The Mom Test nhất, dễ kiểm chứng thêm ở CP4.
+- Actor rõ ràng ở cả 2 phía (lab coach — người trả lời, học viên — người hỏi), quy trình ngắn, vừa sức làm trong 1 buổi lab.
+- Cả 3 thành viên đều là học viên K5 nên đều từng ở vị trí "người hỏi", dễ hiểu domain và dễ kiểm chứng chéo trong nhóm.
 
 **Vì sao loại các candidate còn lại:**
+- #8 (tìm tài liệu nhóm): actor và quy trình còn chung chung, chưa có số liệu cụ thể (mới ở mức mô tả), cần làm rõ thêm trước khi tin tưởng impact.
+- #9 (đặt câu hỏi cho mentor): pain khó đo lường (thế nào là "câu hỏi đúng trọng tâm" mang tính chủ quan), impact không rõ, khó so sánh No AI/Rule/Workflow/Agent vì đây gần với kỹ năng cá nhân hơn là một quy trình có bước nghẽn cụ thể.
+- Các candidate #1, #2, #3 (của Khoa, ngoài 3 cluster chính): domain cá nhân (bán hàng, tìm việc) ít người trong nhóm 3 K5 cùng trải nghiệm trực tiếp như #5, nên khó nhóm cùng hiểu domain và kiểm chứng chéo.
+- #4, #6, #7 (cùng cluster A/khác với #6): #4 và #7 đã có #8 đại diện cho pattern "thông tin rải rác"; #6 là pain về khối lượng/thời gian, không cùng loại vấn đề "tìm kiếm – tổng hợp – trả lời thông tin" nên không đưa vào shortlist.
 
-**Xử lý bất đồng (nếu có):**
+**Xử lý bất đồng (nếu có):** *[điền khi họp thật — ví dụ: nếu 1 bạn không đồng ý #5 vì nghĩ #8 có impact lớn hơn trong dài hạn, ghi lại lý do và cách nhóm thống nhất, hoặc ghi rõ ai bảo lưu ý kiến khác]*
 
 ---
 
