@@ -13,7 +13,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Phạm Nguyên Khoa | 2A202603795 | Điều phối, viết Problem Statement | Neronmen |
-| 2 | Nguyễn Ngọc Ninh | 2A202603774 | Kiểm chứng (phỏng vấn), hỗ trợ Problem Statement v0 | *[Ninh tự điền]* |
+| 2 | Nguyễn Ngọc Ninh | 2A202603774 | Kiểm chứng (phỏng vấn), hỗ trợ Problem Statement v0 | sevenminutes2311|
 | 3 | Ngô Chí Vĩnh | 2A202603724 | Research giải pháp đã có, Assumption Map, bộ câu hỏi phỏng vấn | NgChiVinh |
 
 
@@ -101,3 +101,9 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Kiểm chứng với người thật có thể làm đổi kết luận. Problem #5 do mình đưa ra, nhưng khi phỏng vấn, lab coach nói việc trả lời lặp lại là "không cần thiết" phải giải quyết. Nhờ hỏi người thật nên nhóm chọn Not Yet thay vì làm một giải pháp mà chính người dùng không cần.
+### NguyenNgocNinh-2A202603774
+
+**Phần việc phụ trách:**
+
+- Đưa ra 3 candidate cho nhóm thảo luận và lựa chọn
+- Thảo luận và trực tiếp trao đổi với lab coach về Cp4
