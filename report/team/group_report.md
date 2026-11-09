@@ -5,10 +5,10 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: A2
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
-- Quyết định cuối: Go / Not Yet / No-Go
+- Candidate problem được chọn (1 câu): *[điền sau khi nhóm hội tụ xong CP3]*
+- Quyết định cuối: *[điền sau CP6]*
 
 ---
 
@@ -16,20 +16,19 @@
 
 ### 2.1. Pitch
 
+> Mẫu dòng 1–3 là của Phạm Nguyên Khoa (đã điền sẵn làm ví dụ). Các dòng 4–9 (hoặc tới 12 nếu nhóm đông hơn) do 2 thành viên còn lại tự điền từ Problem Card của họ khi pitch thật trong buổi lab — không điền thay nhau.
+
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Phạm Nguyên Khoa | Khi khách hàng nhắn hỏi giá/size/màu/ship, tôi muốn trả lời nhanh mà không gõ lại nhiều lần, để không bỏ lỡ khách | Người bán hàng online nhỏ lẻ | Tra lại thông tin sản phẩm (chưa đo thời gian) | *[điền khi pitch thật]* |
+| 2 | Phạm Nguyên Khoa | Khi tìm việc làm thêm/thực tập, tôi muốn tổng hợp tin tuyển dụng phù hợp tại một nơi, để không mất thời gian tìm trên nhiều nguồn | Sinh viên, người mới đi làm | Chuyển qua lại giữa 4–5 nguồn, lọc lại từ đầu mỗi lần (chưa đo thời gian) | *[điền khi pitch thật]* |
+| 3 | Phạm Nguyên Khoa | Khi ứng tuyển nhiều công ty, tôi muốn đối chiếu CV với JD và biết cần bổ sung gì, để tiết kiệm thời gian chỉnh sửa hồ sơ | Sinh viên mới tốt nghiệp, người đang tìm việc | Đối chiếu từng yêu cầu JD với CV (chưa đo thời gian) | *[điền khi pitch thật]* |
+| 4 | *[TV2]* | | | | |
+| 5 | *[TV2]* | | | | |
+| 6 | *[TV2]* | | | | |
+| 7 | *[TV3]* | | | | |
+| 8 | *[TV3]* | | | | |
+| 9 | *[TV3]* | | | | |
 
 ### 2.2. Cluster
 
