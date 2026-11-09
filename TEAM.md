@@ -4,18 +4,18 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: A2
+- Candidate problem nhóm chọn (1 câu): Lab coach phải trả lời lặp lại câu hỏi về cách nộp bài (tên repo, tên file, cách nộp) trước mỗi hạn deadline
+- Quyết định cuối (Go / Not Yet / No-Go): Not Yet (No AI ưu tiên thử trước)
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | Phạm Nguyên Khoa | 2A202603795 | Điều phối, viết Problem Statement | Neronmen |
+| 2 | Nguyễn Ngọc Ninh | 2A202603774 | Kiểm chứng (phỏng vấn), hỗ trợ Problem Statement v0 | *[Ninh tự điền]* |
+| 3 | Ngô Chí Vĩnh | 2A202603724 | Research, vẽ quy trình trước/sau | *[Vĩnh tự điền]* |
+
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -25,13 +25,13 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP3 — Hội tụ nhóm | Khoa (điều phối) | Cả nhóm | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | Ninh | Cả nhóm | Assumption map, snapshot hoặc survey |
+| CP4 — Research | Vĩnh | Cả nhóm | Bảng research có link |
+| CP5 — Quy trình trước/sau | Vĩnh | Khoa | Quy trình + bảng before/after |
+| CP5 — Problem Statement v0 | Khoa | Ninh | Problem Statement v0 |
+| CP6 — Mức can thiệp + Problem Statement v1 | Khoa | Cả nhóm | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Cả nhóm | — | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
@@ -53,7 +53,29 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Điều mình học được từ phần nhóm:**
 
--
+
+### PhamNguyenKhoa-2A202603795
+
+**Phần việc phụ trách:**
+
+- Điều phối nhóm, gom cluster/cây OST, chấm điểm chọn candidate, viết Problem Statement v0/v1, lập ma trận mức can thiệp AI
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Tổng hợp 9 candidate của cả nhóm thành 3 cluster và cây OST (mục 2.2–2.3)
+- Lập bảng chấm điểm shortlist và chốt candidate #5 (mục 2.4)
+- Viết Problem Statement v0 (mục 5) và v1 kèm tiêu chí đánh giá (mục 7)
+- Lập ma trận độ mơ hồ × độ phức tạp, so sánh 4 mức can thiệp AI, chốt chọn No AI (mục 6)
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `report/team/group_report.md` mục 2, 5, 6, 7; commit `0834264`, `08a5e74`
+- File cá nhân: `report/individual/2A202603795_PhamNguyenKhoa.md`
+
+**Điều mình học được từ phần nhóm:**
+
+- Baseline chưa đo được thì phải ghi rõ "Chưa đo – cần xác minh" thay vì ước lượng cho có số liệu
+- Mức can thiệp AI nên chọn từ thấp lên cao, không mặc định chọn AI ngay từ đầu
 
 ### NgoChiVinh-2A202603724
 
