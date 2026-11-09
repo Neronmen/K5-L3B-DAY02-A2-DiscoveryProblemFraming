@@ -100,4 +100,4 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Điều mình học được từ phần nhóm:**
 
-- [?]
+- Kiểm chứng với người thật có thể làm đổi kết luận. Problem #5 do mình đưa ra, nhưng khi phỏng vấn, lab coach nói việc trả lời lặp lại là "không cần thiết" phải giải quyết. Nhờ hỏi người thật nên nhóm chọn Not Yet thay vì làm một giải pháp mà chính người dùng không cần.

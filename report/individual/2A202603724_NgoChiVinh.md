@@ -171,7 +171,7 @@ Tôi đưa card #1 cho AI đóng vai "PM hoài nghi".
 | CP5 Quy trình | Không dùng AI. Phần này do Khoa viết, tôi góp ý khi nhóm thảo luận | — | — | — |
 | CP5–6 Problem Statement | Không dùng AI. Phần này do Khoa viết, tôi góp ý khi nhóm thảo luận | — | — | — |
 | CP6 Mức can thiệp / quyết định | Không dùng AI. Phần này do Khoa viết, tôi góp ý khi nhóm thảo luận | — | — | — |
-| CP7 Báo cáo cá nhân | Tổng hợp từ lịch sử commit để soạn bảng mục 4, 5, 7 và phần của tôi trong `TEAM.md`; hướng dẫn dùng git (commit, pull, push) | Liệt kê đúng commit làm bằng chứng cho từng phần việc | Có lúc AI tự ghi những điều chỉ tôi biết (lý do, câu hỏi phản biện); tự thêm dòng đồng tác giả Claude vào commit | Tôi trả lời lại phần tham gia thực tế (không pitch thật, góp ý ở CP5–CP6, không dùng AI ở CP5–CP6) để sửa bảng; xoá dòng đồng tác giả khỏi commit. Mục 6 Reflection: AI đặt câu hỏi gợi ý dạng lựa chọn (câu 6.7 dạng trắc nghiệm, tôi chọn sai 2 câu rồi tự chọn lại), tôi chọn ý theo trải nghiệm của mình, AI ghép thành câu; tôi đọc lại và giữ những ý đúng với mình |
+| CP7 Báo cáo cá nhân | Tổng hợp từ lịch sử commit để soạn bảng mục 4, 5, 7 và phần của tôi trong `TEAM.md`; hướng dẫn dùng git (commit, pull, push) | Liệt kê đúng commit làm bằng chứng cho từng phần việc | Có lúc AI tự ghi những điều chỉ tôi biết (lý do, câu hỏi phản biện); tự thêm dòng đồng tác giả Claude vào commit | Tôi trả lời lại phần tham gia thực tế (không pitch thật, góp ý ở CP5–CP6, không dùng AI ở CP5–CP6) để sửa bảng; xoá dòng đồng tác giả khỏi commit. Mục 6 Reflection: AI đặt câu hỏi gợi ý dạng lựa chọn (câu 6.7 dạng trắc nghiệm, tôi chọn sai 2 câu rồi tự chọn lại), tôi chọn ý theo trải nghiệm của mình, AI ghép thành câu; tôi đọc lại và giữ những ý đúng với mình. Dòng "Điều mình học được" trong `TEAM.md` cũng làm theo cách này |
 
 ---
 
@@ -181,7 +181,7 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-Trong các problem của Khoa và Ninh, tôi chú ý nhất đến problem "tổng hợp tin tuyển dụng từ nhiều nguồn" của Khoa. Tôi thấy nó giống problem đọc đề lab của tôi: thông tin cần dùng đều nằm rải rác ở nhiều nơi, phải mở từng nguồn rồi tự ghép lại.
+Trong các problem của Khoa và Ninh, tôi chú ý nhất đến problem "tổng hợp tin tuyển dụng từ nhiều nguồn" của Khoa. Tôi thấy nó giống problem đọc đề lab của tôi: thông tin cần dùng đều nằm rải rác ở nhiều nơi, phải mở từng nguồn rồi tự ghép lại. Điều đó cho tôi thấy problem của mình không phải chuyện riêng của một mình tôi: người khác, ở bối cảnh khác, cũng gặp đúng kiểu khó khăn đó, nên nó đáng để tìm hiểu kỹ hơn.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
