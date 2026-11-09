@@ -125,13 +125,32 @@ Tổng hợp:
 |---|---:|---|---|
 | Phỏng vấn lab coach | 1 | Coach xác nhận **có bị hỏi lặp lại nhiều** (ủng hộ giả định #1 — tần suất thật có) | Coach nói **"không cần thiết"** phải có giải pháp — chấp nhận trả lời lặp lại là trách nhiệm công việc, không thấy đây là vấn đề cần giải quyết (phản bác giả định #2 và #5: coach không chủ động muốn thay đổi cách hỗ trợ) |
 
+**Nhóm đã sửa problem thế nào sau kiểm chứng:**
+
+- Nhóm **giữ nguyên actor lab coach** và giữ nguyên candidate. Nhóm không đổi problem cho "đẹp" hơn, mà đi tiếp với bằng chứng thật dù bằng chứng đang phản bác.
+- Kiểm chứng xác nhận phần **tần suất** (giả định #1: coach có bị hỏi lặp lại nhiều), nhưng phản bác phần **pain** (giả định #2: coach không coi đó là gánh nặng) và phần **sẵn sàng thay đổi** (giả định #5).
+- Hệ quả: rủi ro **Value** của bài đang ở mức Cao. Nhóm chấp nhận khả năng kết luận cuối là **No-Go hoặc No AI**, và sẽ dùng CP5–CP6 để lập luận cho kết luận đó.
+- Hướng có thể mở rộng sau (chưa làm trong buổi này): pain có thể nằm ở phía **học viên** (người hỏi, phải tìm lại trong nhiều file đề và chờ trả lời). Giả định #3 vẫn chưa được kiểm chứng.
+- **Bài học về cách hỏi:** câu "coach có cần công cụ hay giải pháp không" là câu hỏi về ý tưởng, loại The Mom Test khuyên tránh. Bằng chứng mạnh hơn là **hành vi**: coach vẫn tự trả lời tay và chưa từng thử cách nào để giảm số câu hỏi.
+
 ### 3.3. Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| GitHub Classroom (group assignment) | https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/create-a-group-assignment | Bước đặt tên repo: GitHub Classroom tự tạo một repo chung cho mỗi nhóm, tên repo = tiền tố (mặc định là tên bài) + tên nhóm | Bỏ hẳn bước học viên tự fork và tự đặt tên, nên không thể đặt sai tên repo | Phải do người tổ chức lớp thiết lập, học viên không tự làm được; đổi cả cách lớp đang nộp bài (fork và nộp link trên LMS); không giải quyết tên file báo cáo cá nhân | Một phần bài toán giải được bằng **Rule** (tự động hóa việc đặt tên), không cần AI. Nhưng đây là quyết định của chương trình, ngoài tầm của học viên |
+| Discord Forum Channels | https://discord.com/blog/forum-channels-space-for-organized-conversation | Bước tìm câu trả lời trước khi hỏi: mỗi chủ đề là một post riêng, có Post Guidelines hiện ra khi tạo post mới, có tag và thanh tìm kiếm để xem các post cũ | Có sẵn trong Discord, không phải xây gì; câu đã trả lời không bị trôi như trong kênh chat thường | Học viên vẫn phải chủ động tìm trước khi hỏi; cần coach hoặc admin server tạo kênh và gắn tag; coach đã nói không thấy cần thay đổi | Phương án **No AI** rẻ nhất: gom các câu hỏi về cách nộp vào một chỗ tìm được. Cần kiểm xem học viên có thật sự tìm trước khi hỏi không |
+| Jill Watson, trợ giảng AI ở Georgia Tech | https://provost.gatech.edu/news/artificial-intelligence-course-creates-ai-teaching-assistant | Bước trả lời câu hỏi lặp lại: lớp khoảng 300 học viên, khoảng 10.000 tin nhắn trên diễn đàn mỗi khóa; Jill trả lời các câu thường gặp như "bài tập và tài liệu đọc ở đâu" | Học từ khoảng 40.000 bài đăng cũ; chỉ trả lời khi chắc chắn 97%; giai đoạn đầu trợ giảng người xem lại câu trả lời rồi mới đăng | Quy mô lớn hơn lớp mình rất nhiều; các tuần đầu trả lời sai, cần người duyệt; bài viết từ năm 2016 | Pattern **Workflow có người duyệt**: AI chỉ trả lời khi chắc chắn, còn lại chuyển cho người. Với lớp nhỏ và coach không thấy pain, mức này nhiều khả năng là **quá tay** |
+
+**Kết luận research:**
+
+```text
+Bài toán "hỏi lặp lại về cách nộp" đã có lời giải ở cả 3 mức:
+- Rule: GitHub Classroom tự đặt tên repo (cần chương trình thiết lập).
+- No AI: Forum Channel trên Discord gom câu hỏi và câu trả lời vào một chỗ tìm được.
+- Workflow có người duyệt: trợ giảng AI như Jill Watson, chỉ đáng làm khi lượng câu hỏi rất lớn.
+Với lớp mình (coach không coi đây là pain và không muốn thay đổi cách hỗ trợ),
+không có lý do để tự xây công cụ AI. Nếu làm gì thì chỉ nên ở mức đơn giản nhất: No AI hoặc Rule.
+```
 
 ---
 --
